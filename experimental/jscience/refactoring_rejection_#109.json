@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "parameter modification is part of loop logic",
+  "scope": "single_method",
+  "risk_level": "high"
+}

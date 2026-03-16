@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Modified the exception throwing to include the original exception as cause to preserve stack trace",
+  "patched_code": "throw new IllegalArgumentException(e.getMessage(), e);"
+}

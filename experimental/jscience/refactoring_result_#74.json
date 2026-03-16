@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added explicit charset parameter using StandardCharsets.UTF_8 to InputStreamReader constructor",
+  "patched_code": "ReInit(new java.io.InputStreamReader(dstream, java.nio.charset.StandardCharsets.UTF_8), startline, startcolumn, buffersize);"
+}

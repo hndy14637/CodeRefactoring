@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added null check and clone to prevent storing array directly",
+  "patched_code": "this.perms = perms != null ? perms.clone() : null;"
+}

@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly moves the secondary variable 'n' outside the for-loop initialization, removing the PMD violation while maintaining the original behavior. The refactoring follows the recipe by keeping only the primary variable 'i' in the loop initialization."
+}

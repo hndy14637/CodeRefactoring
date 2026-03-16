@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed unused private field 'dimension' as it was never read and not involved in reflection/serialization",
+  "patched_code": ""
+}

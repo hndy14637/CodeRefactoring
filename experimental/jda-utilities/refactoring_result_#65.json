@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface to follow loose coupling principle while maintaining the same implementation in constructor",
+  "patched_code": "List<Emote> contains = new ArrayList<>();"
+}

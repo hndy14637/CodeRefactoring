@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete implementation type TreeMap with its interface Map to follow loose coupling principle",
+  "patched_code": "private Map<Character, Prefix> tmpChilds;"
+}

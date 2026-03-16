@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface while keeping the ArrayList implementation in the constructor call",
+  "patched_code": "List<User> contains = new ArrayList<>();"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete LinkedList type with interface Deque as it's more appropriate for stack operations",
+  "patched_code": "private final Deque<JsonValueBuilder> parsingStack = new LinkedList<>();"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced 'dataOfYear.size() != 0' with '!dataOfYear.isEmpty()' to follow PMD best practices for empty collection checks",
+  "patched_code": "if (null != dataOfYear && !dataOfYear.isEmpty()) {"
+}

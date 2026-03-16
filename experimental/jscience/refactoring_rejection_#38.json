@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "pre-increment is clear loop control",
+  "scope": "local_block",
+  "risk_level": "high"
+}

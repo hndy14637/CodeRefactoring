@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The assignment 'cp=0' has no side effects and the variable 'cp' is never used, so it can be safely removed",
+  "patched_code": ""
+}

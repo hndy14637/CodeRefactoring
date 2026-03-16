@@ -1,0 +1,6 @@
+
+Step 1: Identify manual resource cleanup code patterns such as try { ... resource.close(); } finally { ... } or try/finally blocks (e.g., for InputStream, Reader, Connection).
+
+Step 2: Move resource declarations into try (Resource r = ...) { ... } structure, removing explicit close() calls and cleanup-only code from finally blocks.
+
+Step 3: Ensure exception handling logic (e.g., logging) remains in catch or finally blocks (if other logic still exists there).

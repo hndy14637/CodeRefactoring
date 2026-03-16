@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable 'newStart' to avoid reassigning the parameter 'start'",
+  "patched_code": "int newStart = str.length() + start; // remember start is negative"
+}

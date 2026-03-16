@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The interface has exactly one abstract method (from Supplier<T>) and appears to be intended as a functional interface, so adding @FunctionalInterface annotation is appropriate.",
+  "patched_code": "@FunctionalInterface\nprivate interface SerializableSupplier<T> extends Supplier<T>, Serializable {"
+}

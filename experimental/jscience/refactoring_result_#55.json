@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced the direct modification of loop control variable 'i' with a separate temporary variable to store the decremented value",
+  "patched_code": "long w = x[i - 1];\nint tmp = i - 1;"
+}

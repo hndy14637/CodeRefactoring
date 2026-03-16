@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary variable 'n' outside the for-loop initialization since it's only used for the loop condition",
+  "patched_code": "int n=that.getNumberOfRows();\nfor (int i=0; i < n; i++) {"
+}

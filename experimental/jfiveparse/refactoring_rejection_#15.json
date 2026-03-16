@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "insufficient context to determine usage pattern",
+  "scope": "class_wide",
+  "risk_level": "medium"
+}

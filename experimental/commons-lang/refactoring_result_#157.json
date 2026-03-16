@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable 'newBuffer' to avoid reassigning the parameter 'buffer'",
+  "patched_code": "StringBuffer newBuffer = new StringBuffer(512);"
+}

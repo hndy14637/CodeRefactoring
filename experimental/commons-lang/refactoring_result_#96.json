@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to store the result of max0(offset1) instead of reassigning the parameter",
+  "patched_code": "int newOffset1 = max0(offset1);"
+}

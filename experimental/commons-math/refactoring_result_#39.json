@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced direct array assignment with a null-check and clone to prevent NPE",
+  "patched_code": "this.types = types != null ? types.clone() : null;"
+}

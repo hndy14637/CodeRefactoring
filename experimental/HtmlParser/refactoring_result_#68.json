@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface while preserving the behavior",
+  "patched_code": "List<String> strings = null;"
+}

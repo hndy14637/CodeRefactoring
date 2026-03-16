@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced HashMap with Map interface in field declaration while keeping concrete implementation in constructor",
+  "patched_code": "private static final Map<Integer, Map<Integer, DPInfo[][]>> DATE_CACHE = new HashMap<>();"
+}

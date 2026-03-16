@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "JsonArray is already an interface type, not a concrete implementation, so no refactoring is needed",
+  "patched_code": ""
+}

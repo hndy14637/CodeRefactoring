@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "multiple control vars needed - both i and j appear to be essential control variables with no obvious way to separate them",
+  "patched_code": "for (int i = 0, j = 0;;) { // AUTO-REFACTOR: skip - multiple control vars needed"
+}

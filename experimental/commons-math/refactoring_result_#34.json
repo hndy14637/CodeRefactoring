@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to store the result of Dfp.copySign instead of reassigning the parameter",
+  "patched_code": "final Dfp absoluteValue = Dfp.copySign(a, a.getOne());  // absolute value"
+}

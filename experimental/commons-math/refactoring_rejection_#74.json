@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "assignment not to a field",
+  "scope": "local_block",
+  "risk_level": "low"
+}

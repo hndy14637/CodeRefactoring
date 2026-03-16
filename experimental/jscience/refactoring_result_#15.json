@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to equals method as it overrides Object.equals()",
+  "patched_code": "@Override\npublic boolean equals(Object obj) {"
+}

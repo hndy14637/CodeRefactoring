@@ -1,0 +1,5 @@
+{
+  "verdict": "reject",
+  "still_violates_rule": true,
+  "description": "The patch does not actually refactor the code - it keeps both control variables (i and m) in the for-loop initialization, which still violates the rule. The secondary variable 'm' should be moved outside the loop."
+}

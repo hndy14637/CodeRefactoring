@@ -1,0 +1,4 @@
+
+Step 1: Locate this.field = paramArray; in non-private constructors/methods.
+
+Step 2: Change to this.field = paramArray != null ? paramArray.clone() : null; to prevent NPE.

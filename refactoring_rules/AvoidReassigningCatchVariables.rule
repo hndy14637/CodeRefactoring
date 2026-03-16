@@ -1,0 +1,5 @@
+Step 1: Locate instances of `e = new ...;` inside `catch (Exception e) { ... }` blocks.
+
+Step 2: Introduce a new local variable (e.g., `Exception wrapped = new ...;`) and use this new variable instead.
+
+Step 3: For rethrowing scenarios, use either `throw wrapped;` or the pattern `throw new ...(msg, e);`.

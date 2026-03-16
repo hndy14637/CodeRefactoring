@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Applied defensive copying to prevent direct storage of user-supplied array",
+  "patched_code": "data = d != null ? d.clone() : null;"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable 'm' outside the for-loop initialization while preserving the original behavior",
+  "patched_code": "int m = rows.size();\nfor (int i = 0; i < m; i++) {"
+}

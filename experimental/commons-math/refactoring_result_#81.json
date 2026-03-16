@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The interface appears to be a functional interface (has exactly one abstract method), so adding @FunctionalInterface annotation clarifies its intent",
+  "patched_code": "@FunctionalInterface\npublic interface LeastSquaresOptimizer {\n\n}"
+}

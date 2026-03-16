@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Returned a copy of the internal array to prevent exposure of internal state",
+  "patched_code": "return children.clone();"
+}

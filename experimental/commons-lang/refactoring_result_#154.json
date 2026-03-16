@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Changed direct array assignment to use clone() to prevent NPE",
+  "patched_code": "this.excludeFields = excludeFields != null ? excludeFields.clone() : null;"
+}

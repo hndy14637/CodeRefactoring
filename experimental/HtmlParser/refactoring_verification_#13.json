@@ -1,0 +1,5 @@
+{
+  "verdict": "reject",
+  "still_violates_rule": true,
+  "description": "The patch still reassigns the parameter 'unitCount', which violates the rule. The local variable 'newUnitCount' should be used instead of reassigning the parameter."
+}

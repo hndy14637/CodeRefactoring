@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced TreeSet with its interface SortedSet to follow loose coupling principle",
+  "patched_code": "final SortedSet<T> sort = new TreeSet<>();"
+}

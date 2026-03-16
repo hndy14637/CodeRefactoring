@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added null check and clone to prevent direct storage of user-supplied array",
+  "patched_code": "this.features = features != null ? features.clone() : null;"
+}

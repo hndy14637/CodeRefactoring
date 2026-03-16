@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Applied the refactoring recipe to prevent storing the array directly by using clone()",
+  "patched_code": "normal = n != null ? n.clone() : null;"
+}

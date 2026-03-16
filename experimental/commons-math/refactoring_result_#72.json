@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted index-based for-loop to enhanced for-loop since the index 'i' is only used to access array elements",
+  "patched_code": "for (double value : input) {\n    sampleStats.addValue(value);\n}"
+}

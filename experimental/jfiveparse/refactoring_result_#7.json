@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The private method 'parseFragment' was unused and there were no signs of reflection-based calls, so it was safely removed.",
+  "patched_code": ""
+}

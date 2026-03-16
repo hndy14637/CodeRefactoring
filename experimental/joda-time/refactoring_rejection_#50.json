@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "cannot confirm overriding without superclass/interface context",
+  "scope": "single_method",
+  "risk_level": "high"
+}

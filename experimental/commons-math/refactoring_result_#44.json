@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary variable 'max' outside the for-loop initialization while preserving behavior",
+  "patched_code": "int max = orig.size();\nfor (int i = 0; i < max; i++) {"
+}

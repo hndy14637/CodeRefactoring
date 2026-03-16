@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "loop control variable update is necessary for correct iteration",
+  "scope": "local_block",
+  "risk_level": "high"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced LinkedList with its interface List to follow loose coupling principle",
+  "patched_code": "private final List<Command> commands = new LinkedList<>();"
+}

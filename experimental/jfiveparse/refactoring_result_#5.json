@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @FunctionalInterface annotation since this interface has exactly one abstract method and appears to be intended as a functional interface",
+  "patched_code": "@FunctionalInterface\npublic interface NodeMatcher {\n\n"
+}

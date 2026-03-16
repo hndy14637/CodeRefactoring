@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "incomplete method signature and body provided",
+  "scope": "single_method",
+  "risk_level": "high"
+}

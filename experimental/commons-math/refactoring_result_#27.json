@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored string comparison to put literal first to avoid potential NPE",
+  "patched_code": "if (NAN_STRING.equals(s)) {"
+}

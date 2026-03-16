@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "no constants in interface detected",
+  "scope": "local_block",
+  "risk_level": "low"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to put literals first in String comparisons to avoid potential NPEs while preserving behavior",
+  "patched_code": "if(DEFAULT_PREFIX.equals(prefix) || (altprefix != null && DEFAULT_PREFIX.equals(altprefix)))"
+}

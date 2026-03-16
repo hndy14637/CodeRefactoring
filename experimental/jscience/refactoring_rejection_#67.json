@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "interface body not shown, cannot determine if it's a functional interface",
+  "scope": "class_wide",
+  "risk_level": "medium"
+}

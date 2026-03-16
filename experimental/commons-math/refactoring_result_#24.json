@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "The loop uses the index 'i' to access array elements, which is necessary for array access and cannot be directly replaced with an enhanced for-loop without changing behavior.",
+  "patched_code": "for (int i = 0; i < data.length; i++) {\n    values.add(data[i]);\n}"
+}

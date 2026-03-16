@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with interface List to follow loose coupling principle while preserving behavior",
+  "patched_code": "private final List<Command> commands;"
+}

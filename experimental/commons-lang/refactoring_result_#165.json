@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to avoid reassigning method parameter",
+  "patched_code": "final String localMethodNames = CAUSE_METHOD_NAMES;"
+}

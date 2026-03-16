@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced FileReader with InputStreamReader and specified charset explicitly using StandardCharsets.UTF_8",
+  "patched_code": "new BufferedReader( new InputStreamReader( new FileInputStream( fileName ), StandardCharsets.UTF_8 ) )"
+}

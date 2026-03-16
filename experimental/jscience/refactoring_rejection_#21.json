@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "m depends on numberOfRows() which may change",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

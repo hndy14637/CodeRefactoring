@@ -1,0 +1,6 @@
+
+Step 1: Identify private fields that are never read.
+
+Step 2: Verify no reflection/serialization special cases exist (automated tools typically skip common fields like serialVersionUID, LOGGER, etc.).
+
+Step 3: Remove the field and any statements solely used to assign values to it.

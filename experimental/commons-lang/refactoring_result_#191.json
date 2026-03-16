@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type declaration with List interface while keeping the ArrayList constructor",
+  "patched_code": "final List<Format> foundFormats = new ArrayList<>();"
+}

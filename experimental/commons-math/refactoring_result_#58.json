@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The variable 'hc' is assigned but never used, and the expression has no side effects (just a pure computation), so we can safely remove the entire line.",
+  "patched_code": ""
+}

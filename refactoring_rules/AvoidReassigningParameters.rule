@@ -1,0 +1,9 @@
+Step 1: Identify assignments to method/constructor parameters (`param = ...;`).
+
+Step 2: Introduce a new local variable:
+```java
+Type newName = ...;
+```
+and replace subsequent uses of `param` with `newName`.
+
+Step 3: Remove the reassignment to the parameter to ensure it maintains "read-only" semantics.

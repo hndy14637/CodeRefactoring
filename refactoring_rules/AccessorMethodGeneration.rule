@@ -1,0 +1,6 @@
+
+Step 1: Locate instances where an outer class uses OuterClass.this.privateField or OuterClass.this.privateMethod().
+
+Step 2: Change the access level of these members from private to package-private (simply remove the private modifier).
+
+Step 3: If modifying visibility is undesirable, consider moving the logic to a public helper method and have the external class call it indirectly.

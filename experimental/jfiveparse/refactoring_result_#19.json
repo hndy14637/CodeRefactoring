@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed unused private method 'isCharacter' as it was not invoked and there were no signs of reflection-based calls.",
+  "patched_code": ""
+}

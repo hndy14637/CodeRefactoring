@@ -1,0 +1,8 @@
+
+Step 1: Locate Map<EnumType, ...>/Set<EnumType> implementations using HashMap/HashSet.
+
+Step 2: Modify declarations to EnumMap<EnumType, ...> or EnumSet<EnumType> and update initialization:
+
+new EnumMap<>(EnumType.class)
+EnumSet.noneOf(EnumType.class)
+Step 3: Preserve key/value logic and ensure API compatibility.

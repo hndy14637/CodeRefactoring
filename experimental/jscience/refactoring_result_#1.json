@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved the constant from an interface to a constants class to follow best practices",
+  "patched_code": "public final static BaseUnit<Money> UNIT = new BaseUnit<Money>(\"$\");"
+}

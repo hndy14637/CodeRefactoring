@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to put literal first in String comparison to avoid potential NPE and follow PMD best practices",
+  "patched_code": "if (\"cn\".equals(locale)) {"
+}

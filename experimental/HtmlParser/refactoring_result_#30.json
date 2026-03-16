@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The variable 'cp' was assigned but never used. The assignment expression has side effects (multiple assignments), so we kept the useful part and removed the unused assignment to 'cp'.",
+  "patched_code": "bytesNeeded=bytesSeen=0;"
+}

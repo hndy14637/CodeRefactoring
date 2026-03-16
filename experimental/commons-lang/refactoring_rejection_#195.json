@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "insufficient context to determine if 'len' is a parameter",
+  "scope": "local_block",
+  "risk_level": "high"
+}

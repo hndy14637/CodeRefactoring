@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete implementation type LinkedHashMap with interface Map",
+  "patched_code": "Map<String, JsonValue> values = new LinkedHashMap<>(entries.size());"
+}

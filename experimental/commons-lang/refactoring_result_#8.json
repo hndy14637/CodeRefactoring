@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced parameter reassignment with a new local variable to maintain read-only parameter semantics",
+  "patched_code": "int newStartIndex = indexOf(array, valueToFind, startIndex);"
+}

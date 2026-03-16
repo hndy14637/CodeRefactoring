@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete HashMap type with Map interface to follow loose coupling principle while maintaining behavior",
+  "patched_code": "private final Map<String,OffsetDateTime> cooldowns;"
+}

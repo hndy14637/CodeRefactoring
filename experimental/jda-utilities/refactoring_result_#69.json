@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete implementation type HashMap with interface Map",
+  "patched_code": "private final Map<Class<?>, Set<WaitingEvent>> waitingEvents;"
+}

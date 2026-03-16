@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "incomplete class definition",
+  "scope": "class_wide",
+  "risk_level": "high"
+}

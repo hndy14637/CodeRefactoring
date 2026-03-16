@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced HashMap with Map interface type in method parameter to follow loose coupling principle while preserving behavior",
+  "patched_code": "private void setDecor(List<String> date, Map<String, Set<String>> cache) {"
+}

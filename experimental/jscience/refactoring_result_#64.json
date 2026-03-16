@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored string comparison to put literal first to avoid potential NPE and follow PMD best practices",
+  "patched_code": "if (name.startsWith(\"test\") && !\"tests\".equals(name) && !testMethods.containsKey(name))"
+}

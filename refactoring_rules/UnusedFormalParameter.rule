@@ -1,0 +1,12 @@
+
+Step 1: Identify unused parameters in methods/constructors.
+
+Step 2: If the method is private and only called within its own class:
+
+Remove the parameter
+Update all call sites accordingly
+Step 3: If it's part of a public API (public/protected/interface implementation):
+
+Keep the parameter (for backward compatibility)
+Optionally add // Unused parameter or @SuppressWarnings("unused")
+Note: Automatic refactoring should only remove parameters from private methods

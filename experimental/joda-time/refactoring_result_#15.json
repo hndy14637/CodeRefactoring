@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to place the literal first in the string comparison to follow PMD best practices and avoid potential NPE",
+  "patched_code": "if ( \"hex\".equalsIgnoreCase(viewStr) ) {"
+}

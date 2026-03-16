@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly adds an explicit charset parameter (StandardCharsets.UTF_8) to the InputStreamReader constructor, resolving the PMD violation without introducing any suspicious behavior or API changes."
+}

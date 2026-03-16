@@ -1,0 +1,9 @@
+
+Step 1: Locate interfaces with exactly one abstract method but without @FunctionalInterface.
+
+Step 2: If the intended purpose is to be a functional interface, add the @FunctionalInterface annotation.
+
+Step 3: If it is not intended to be a functional interface, the automated refactoring can either:
+
+Skip the modification, or
+Add @SuppressWarnings("PMD.ImplicitFunctionalInterface") (Note: In practice, it is recommended to only provide a warning rather than automatic modification.)

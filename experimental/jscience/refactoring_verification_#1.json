@@ -1,0 +1,5 @@
+{
+  "verdict": "reject",
+  "still_violates_rule": true,
+  "description": "The patch does not actually move the constant to a constants class or enum as required by the refactoring recipe. The constant remains in the interface, which still violates the PMD rule."
+}

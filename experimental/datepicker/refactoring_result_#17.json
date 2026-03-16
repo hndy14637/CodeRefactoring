@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced parameter reassignment with a local variable to maintain read-only parameter semantics",
+  "patched_code": "double newV = Math.floor(v);"
+}

@@ -1,0 +1,17 @@
+
+Step 1: Identify I/O operations involving charset handling without explicit charset specification, such as:
+
+Java
+new String(bytes)
+str.getBytes()
+new InputStreamReader(in)
+Step 2: Add explicit charset parameter using StandardCharsets:
+
+Java
+new String(bytes, StandardCharsets.UTF_8)
+str.getBytes(StandardCharsets.UTF_8)
+new InputStreamReader(in, StandardCharsets.UTF_8)
+Step 3: If the project has existing charset utility wrappers:
+
+Prefer using the encapsulated utility methods
+Avoid hardcoding charset literals directly

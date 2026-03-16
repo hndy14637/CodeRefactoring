@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to put the literal string first in the comparison to avoid potential NPE and follow PMD best practices",
+  "patched_code": "if(!\"\".equals(temp))"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "The input code uses JsonObject as a parameter type, but JsonObject is typically an interface in common JSON libraries (e.g., javax.json.JsonObject). Since it's already using the interface type, no refactoring is needed.",
+  "patched_code": ""
+}

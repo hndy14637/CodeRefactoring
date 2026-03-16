@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "interface purpose unclear",
+  "scope": "class_wide",
+  "risk_level": "medium"
+}

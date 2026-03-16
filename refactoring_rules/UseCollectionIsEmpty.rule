@@ -1,0 +1,6 @@
+
+Step 1: Identify empty collection checks like collection.size() == 0 or collection.size() != 0.
+
+Step 2: Replace with collection.isEmpty() or !collection.isEmpty() respectively.
+
+Step 3: For expressions using > 0 or == 0, uniformly convert to appropriate isEmpty() variants.

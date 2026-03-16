@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface type while keeping the ArrayList constructor",
+  "patched_code": "List<Category> startswith = new ArrayList<>();"
+}

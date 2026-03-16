@@ -1,0 +1,10 @@
+Step 1: Locate write operations to loop control variables (`i = ...;` or `item = ...;`) inside `for` or `foreach` loops.
+
+Step 2: Replace them with separate local variables for derived computations:
+```java
+int tmp = i + 1;
+// or
+var processed = item.trim();
+```
+
+Step 3: Only retain assignments if they are necessary for loop control logic and the semantics are clear; otherwise, ensure loop variables are updated monotonically.

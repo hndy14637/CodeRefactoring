@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface while keeping the implementation in constructor",
+  "patched_code": "List<TextChannel> startswith = new ArrayList<>();"
+}

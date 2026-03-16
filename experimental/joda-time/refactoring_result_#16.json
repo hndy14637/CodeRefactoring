@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to put literal first in String comparison to follow PMD best practice and avoid potential NPE",
+  "patched_code": "else if ( \"date\".equalsIgnoreCase(viewStr) ) {"
+}

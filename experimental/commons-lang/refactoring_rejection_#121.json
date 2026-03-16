@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "EnumSet is a special case where implementation type is typically preferred",
+  "scope": "single_method",
+  "risk_level": "high"
+}

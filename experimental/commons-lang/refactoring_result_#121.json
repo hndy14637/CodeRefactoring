@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete EnumSet with Set interface while maintaining the same implementation in the constructor call",
+  "patched_code": "final Set<E> results = EnumSet.noneOf(asEnum(enumClass));"
+}

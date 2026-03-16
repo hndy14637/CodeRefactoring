@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to place the literal first in the String comparison to avoid potential NPE and follow best practices",
+  "patched_code": "if (\"-\".equals(sign1.image)) {"
+}

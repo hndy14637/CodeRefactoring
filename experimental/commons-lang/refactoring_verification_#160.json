@@ -1,0 +1,5 @@
+{
+  "verdict": "reject",
+  "still_violates_rule": true,
+  "description": "The patch incorrectly passes cex.getCause() as both message and cause, which doesn't properly preserve the stack trace. It should pass cex as the cause instead of cex.getCause() to maintain the full exception chain."
+}

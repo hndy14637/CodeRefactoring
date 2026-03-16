@@ -1,0 +1,6 @@
+
+Step 1: Locate fields of type MessageDigest that are reused across multiple methods.
+
+Step 2: Remove the field and replace each usage with a local variable inside the method:
+MessageDigest md = MessageDigest.getInstance("SHA-256");
+Step 3: If sharing is mandatory (for performance reasons), add synchronization or use thread-local variables. However, for automated refactoring, prioritize the "local instantiation" approach.

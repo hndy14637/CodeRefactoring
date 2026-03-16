@@ -1,0 +1,12 @@
+Step 1: Locate `ResultSet` navigation method calls (`next()`, `first()`, etc.) where the result is used directly without checking the return value.
+
+Step 2: Refactor the call into:
+```java
+if (rs.next()) {
+... use rs ...
+} else {
+... handle empty ...
+}
+```
+
+Step 3: For automated refactoring, the `else` branch can initially be replaced with a `// TODO handle empty result` comment to avoid excessive control flow changes.

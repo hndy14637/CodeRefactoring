@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete type ArrayList with interface List",
+  "patched_code": "String success, String warning, String error, String carbonKey, String botsKey, List<Command> commands,"
+}

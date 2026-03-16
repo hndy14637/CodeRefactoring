@@ -1,0 +1,5 @@
+{
+  "verdict": "reject",
+  "still_violates_rule": true,
+  "description": "The patch introduces a local variable but doesn't replace the original parameter reassignment, thus still violating the rule. The original assignment to 'value' should be removed to fully comply with the refactoring recipe."
+}

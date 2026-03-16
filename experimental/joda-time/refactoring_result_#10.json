@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted index-based for-loop to enhanced for-loop since the index 'i' is only used for array access",
+  "patched_code": "for (IGroup iGroup : iGroups) {\n    subtrahend = iGroup.updateResult(minuend, subtrahend);\n}"
+}

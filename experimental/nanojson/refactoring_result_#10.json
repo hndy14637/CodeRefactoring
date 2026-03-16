@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "The StringBuilder field 'reusableBuffer' is protected and may be used by subclasses or other classes in the same package. Without seeing its usage context, we cannot safely convert it to a local variable as it might be accessed from multiple methods or inherited classes.",
+  "patched_code": "protected StringBuilder reusableBuffer = new StringBuilder();"
+}

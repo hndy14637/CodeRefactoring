@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced WeakHashMap with Map interface in field declaration while keeping concrete implementation in ThreadLocal initializer",
+  "patched_code": "private static final ThreadLocal<Map<Object, Object>> REGISTRY = ThreadLocal.withInitial(WeakHashMap::new);"
+}

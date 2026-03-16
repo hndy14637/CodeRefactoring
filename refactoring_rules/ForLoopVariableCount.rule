@@ -1,0 +1,8 @@
+
+Step 1: Detect multiple control variables in for-loop initialization: for (int i=0, j=0; ...).
+
+Step 2: Refactor by:
+
+Keeping one primary variable i
+Moving secondary variables (j etc.) to: a) Local variables inside loop body, or b) Recalculated expressions
+Step 3: If control variables are truly interdependent (cannot be separated), mark with // AUTO-REFACTOR: skip - multiple control vars needed comment.

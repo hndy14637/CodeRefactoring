@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed unused parameter 'active0' from private method and updated method signature",
+  "patched_code": "private final int jjStopStringLiteralDfa_0(int pos)"
+}

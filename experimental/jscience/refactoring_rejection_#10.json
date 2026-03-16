@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "cannot verify if this method actually overrides without seeing parent class/interface",
+  "scope": "single_method",
+  "risk_level": "high"
+}

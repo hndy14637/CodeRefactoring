@@ -1,0 +1,5 @@
+Step 1: Locate all instances of `e.printStackTrace();` and similar direct printing method calls.
+
+Step 2: Replace them with proper logging, for example:
+logger.error("Error occurred", e);
+Step 3: If the current class does not have a logger field, automatically add a standard logger declaration (e.g., SLF4J's `private static final Logger LOGGER = LoggerFactory.getLogger(ClassName.class);`).

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The private field 'dimension' was never read and can be safely removed.",
+  "patched_code": ""
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete type ArrayList with interface List to follow loose coupling principle",
+  "patched_code": "List fileStrings = lddFile.getFileStrings();"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted String.format to parameterized logging to avoid unnecessary string concatenation when logging is disabled",
+  "patched_code": "LOG.warn(\"The provided CoOwner ID ({}) was found unsafe! Make sure ID is a non-negative long!\", coOwnerId);"
+}

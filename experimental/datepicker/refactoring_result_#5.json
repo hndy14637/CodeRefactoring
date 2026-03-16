@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete HashMap type with interface Map in field declaration while keeping the concrete implementation in the constructor",
+  "patched_code": "private static final Map<String, Set<String>> DECOR_CACHE_T = new HashMap<>();"
+}

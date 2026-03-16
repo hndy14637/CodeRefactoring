@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete type HashSet with interface Set in parameter declaration",
+  "patched_code": "private static void getAllInterfaces(Class<?> cls, final Set<Class<?>> interfacesFound) {"
+}

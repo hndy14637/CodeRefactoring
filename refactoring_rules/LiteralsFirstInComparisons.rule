@@ -1,0 +1,8 @@
+Step 1: Identify reverse equality checks like obj == "literal" or potentially NPE-prone orders like someObj.equals("x").
+
+Step 2: Refactor to "literal".equals(obj);
+
+Step 3: For == object comparisons:
+
+Consider converting to equals() if reference equality isn't required
+Otherwise preserve (may be intentional identity comparison)

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete type LinkedHashSet with its interface Set to follow loose coupling principle",
+  "patched_code": "final Set<Class<?>> interfacesFound = new LinkedHashSet<>();"
+}

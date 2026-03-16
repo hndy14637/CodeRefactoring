@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList return type with List interface to follow loose coupling principle while preserving behavior",
+  "patched_code": "public List getDtObjects() { return dtObjects; }"
+}

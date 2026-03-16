@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced Integer constructor call with Integer.valueOf() to follow PMD best practices while preserving the same behavior",
+  "patched_code": "retValues[nextStrNum][column++]  = Integer.valueOf( cal.get(\n                Calendar.MILLISECOND ) );"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The interface appears to be a functional interface as it has only one abstract method, so adding @FunctionalInterface annotation is appropriate",
+  "patched_code": "@FunctionalInterface\npublic interface PermutationChromosome<T> {\n\n}"
+}

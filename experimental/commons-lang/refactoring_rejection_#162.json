@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "cannot determine if launderException preserves stack trace",
+  "scope": "local_block",
+  "risk_level": "high"
+}

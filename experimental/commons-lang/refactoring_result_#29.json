@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete HashMap type declaration with Map interface while keeping the implementation in constructor",
+  "patched_code": "final Map<Integer, MutableInt> occurrences = new HashMap<>(values.length);"
+}

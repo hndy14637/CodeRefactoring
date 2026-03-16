@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface as per the refactoring recipe",
+  "patched_code": "List<VoiceChannel> exact = new ArrayList<>();"
+}

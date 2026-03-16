@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable 'newStartIndex' to avoid reassigning the parameter 'startIndex'",
+  "patched_code": "int newStartIndex = array.length - 1;"
+}

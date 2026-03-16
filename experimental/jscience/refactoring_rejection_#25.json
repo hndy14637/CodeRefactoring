@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "multiple control vars needed",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

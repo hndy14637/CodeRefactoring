@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "reassignment appears to be part of type substitution logic",
+  "scope": "local_block",
+  "risk_level": "high"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface to follow loose coupling principle while maintaining the same behavior",
+  "patched_code": "List<Category> wrongcase = new ArrayList<>();"
+}

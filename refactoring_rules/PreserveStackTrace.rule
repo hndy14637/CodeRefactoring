@@ -1,0 +1,12 @@
+
+Step 1: Identify catch blocks that create and throw new exceptions without including the original exception:
+
+Java
+catch (Exception e) { throw new OtherException("msg"); }
+Step 2: Modify to pass the original exception as the cause:
+
+Java
+throw new OtherException("msg", e);
+Step 3: If the custom exception class lacks a constructor with cause:
+
+Add either a (String, Throwable) or (Throwable) constructor

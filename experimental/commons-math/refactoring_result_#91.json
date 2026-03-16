@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @FunctionalInterface annotation since the interface appears to be intended as a functional interface with only one abstract method",
+  "patched_code": "@FunctionalInterface\npublic interface Fitness {\n\n}"
+}

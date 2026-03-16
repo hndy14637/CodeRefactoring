@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to the getMessage() method as it's likely overriding a superclass method",
+  "patched_code": "@Override\n  public String getMessage() {"
+}

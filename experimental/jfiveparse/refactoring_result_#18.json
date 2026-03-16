@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved constant from interface to a dedicated constants class to follow best practices",
+  "patched_code": "public static final String EOF = \"EOF\";"
+}

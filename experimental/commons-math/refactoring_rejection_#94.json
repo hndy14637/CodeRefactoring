@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "interface is empty, cannot determine intent",
+  "scope": "class_wide",
+  "risk_level": "high"
+}

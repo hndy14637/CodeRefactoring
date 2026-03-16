@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface type declaration while keeping the concrete implementation in constructor",
+  "patched_code": "List<VoiceChannel> wrongcase = new ArrayList<>();"
+}

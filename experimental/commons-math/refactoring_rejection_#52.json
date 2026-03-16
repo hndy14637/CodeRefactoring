@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "loop uses index for array access and calculations",
+  "scope": "local_block",
+  "risk_level": "high"
+}

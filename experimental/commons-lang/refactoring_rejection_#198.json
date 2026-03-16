@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "loop variable is updated monotonically for control",
+  "scope": "local_block",
+  "risk_level": "low"
+}

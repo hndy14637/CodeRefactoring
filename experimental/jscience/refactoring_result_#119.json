@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted index-based for-loop to enhanced for-loop since the index 'j' was only used for array access",
+  "patched_code": "for (RightElem rightElem : rightElems) {\n                if (unit.equals(rightElem.unit)) {\n                    p2 = rightElem.pow;\n                    r2 = rightElem.root;\n                    break; // No duplicate.\n                }\n            }"
+}

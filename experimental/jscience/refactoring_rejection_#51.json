@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "n is a performance optimization for dimension() call",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete HashMap type with Map interface to follow loose coupling principle while maintaining the same implementation in constructor",
+  "patched_code": "final Map<Long, MutableInt> occurrences = new HashMap<>(values.length);"
+}

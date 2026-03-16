@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted index-based for-loop to enhanced for-loop since the index 'i' is not used for other purposes",
+  "patched_code": "for (Complex rootElement : root) {\n    if (complexSolver.isRoot(lo, hi, rootElement)) {\n        r = rootElement.getReal();\n        break;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The field initializer was unused as it was being overwritten later, so it was removed to fix the UnusedAssignment violation",
+  "patched_code": "protected LoadedFile lddFile;"
+}

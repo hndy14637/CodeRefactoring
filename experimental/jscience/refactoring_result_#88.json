@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The variable 'l2' is unused and its initialization expression has no side effects, so the entire declaration can be removed.",
+  "patched_code": ""
+}

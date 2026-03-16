@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable j to be initialized before the loop since it's only initialized once and used as an offset",
+  "patched_code": "int j = shift;\nfor (int i = 0; i < xSize;) {"
+}

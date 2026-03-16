@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface as per LooseCoupling rule",
+  "patched_code": "List<User> exact = new ArrayList<>();"
+}

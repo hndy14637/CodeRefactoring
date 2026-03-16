@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced Integer constructor call with Integer.valueOf() as per PMD best practices",
+  "patched_code": "retValues[nextStrNum][column++]  = Integer.valueOf( adt.getWeekOfWeekyear() );"
+}

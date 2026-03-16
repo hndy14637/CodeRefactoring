@@ -1,0 +1,7 @@
+
+Step 1: Locate local variable declarations that are never read.
+
+Step 2: If the initialization expression has no side effects, delete the entire variable declaration line.
+
+Step 3: If there are side effects, modify to keep only the side-effect expression and remove the variable declaration part.
+

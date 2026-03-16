@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable 'negatedA' to store the negated value instead of reassigning the parameter 'a'",
+  "patched_code": "int negatedA = -a;"
+}

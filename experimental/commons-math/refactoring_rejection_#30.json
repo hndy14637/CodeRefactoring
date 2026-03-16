@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "cannot determine side effects without full context",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

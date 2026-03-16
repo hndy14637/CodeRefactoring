@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced manual resource cleanup with try-with-resources statement",
+  "patched_code": "try (java.io.ByteArrayOutputStream ms = new java.io.ByteArrayOutputStream()) {\n  if (WriteUtf8(str, 0, str.length(), ms, replace, lenientLineBreaks) != 0) {\n    throw new IllegalArgumentException(\"Unpaired surrogate code point\");\n  }\n  return ms.toByteArray();\n}"
+}

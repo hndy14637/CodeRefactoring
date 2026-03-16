@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface to follow loose coupling principle",
+  "patched_code": "List<TextChannel> wrongcase = new ArrayList<>();"
+}

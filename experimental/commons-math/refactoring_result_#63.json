@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The variable 'g' is assigned but never used, and the assignment has no side effects. Therefore, it can be safely removed.",
+  "patched_code": ""
+}

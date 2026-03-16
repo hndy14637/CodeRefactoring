@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @FunctionalInterface annotation as the interface appears to be a functional interface with exactly one abstract method",
+  "patched_code": "@FunctionalInterface\npublic interface TrivariateGridInterpolator {\n\n}"
+}

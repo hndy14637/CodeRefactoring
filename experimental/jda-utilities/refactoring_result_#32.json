@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced size()>0 check with !isEmpty() for better readability and to follow PMD best practices",
+  "patched_code": "else if(!messages.isEmpty())"
+}

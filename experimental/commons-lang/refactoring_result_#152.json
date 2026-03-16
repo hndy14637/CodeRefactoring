@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a local variable to avoid reassigning the parameter 'max'",
+  "patched_code": "int newMax = max - 1;\nif (newMax == 0) {"
+}

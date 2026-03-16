@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced printStackTrace() with proper logger error call and added logger declaration",
+  "patched_code": "LOGGER.error(\"Error occurred\", ioe);"
+}

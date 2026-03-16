@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced size()>0 check with !isEmpty() to follow PMD best practices while preserving behavior",
+  "patched_code": "while(!this.stack.isEmpty() && unitCount>0){"
+}

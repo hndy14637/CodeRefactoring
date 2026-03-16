@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface while keeping the ArrayList implementation in the constructor",
+  "patched_code": "final List<Integer> nonZeroPositions = new ArrayList<>();"
+}

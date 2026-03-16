@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The variable 'c' is assigned but never used, and the assignment has no side effects. Following the recipe, we can simply remove the unused assignment.",
+  "patched_code": ""
+}

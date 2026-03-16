@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "The input code does not declare a field or local variable with a concrete implementation type. The method parameter 'default_' is already using the interface type 'JsonObject'.",
+  "patched_code": ""
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The interface has exactly one abstract method (inherited from Reference<X>) and appears to be intended as a functional interface",
+  "patched_code": "@FunctionalInterface\npublic interface Variable<X> extends Reference<X> {\n\n}"
+}

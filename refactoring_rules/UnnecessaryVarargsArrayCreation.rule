@@ -1,0 +1,13 @@
+
+Step 1: Identify calls passing explicit arrays to varargs methods, such as:
+
+Java
+foo(new String[]{"a", "b"})  // Where method is foo(String... args)
+Step 2: Convert to direct varargs invocation:
+
+Java
+foo("a", "b")
+Step 3: Preserve the original array-passing pattern when:
+
+The array is constructed dynamically
+The number of arguments isn't fixed at compile-time

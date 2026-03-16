@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly replaces the concrete type ArrayList with the interface List while keeping the implementation in the constructor, effectively removing the PMD violation without changing behavior."
+}

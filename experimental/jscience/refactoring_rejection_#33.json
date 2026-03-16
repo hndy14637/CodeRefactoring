@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "m is directly derived from _rows.size() and used as loop boundary",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

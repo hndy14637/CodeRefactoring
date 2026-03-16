@@ -1,0 +1,7 @@
+
+Step 1: Identify fields/local variables declared with concrete implementation types (e.g., ArrayList, HashMap).
+
+Step 2: Replace the declared type with its interface (e.g., List, Map).
+
+Step 3: Keep the concrete implementation in constructor calls (e.g., new ArrayList<>() remains unchanged).
+

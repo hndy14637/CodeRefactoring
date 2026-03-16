@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted manual resource cleanup to try-with-resources statement",
+  "patched_code": "try (FileOutputStream os = new FileOutputStream(file)) {\n  stringToStream(s, os);\n}"
+}

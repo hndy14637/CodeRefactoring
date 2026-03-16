@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface while keeping the implementation in the constructor",
+  "patched_code": "List<VoiceChannel> contains = new ArrayList<>();"
+}

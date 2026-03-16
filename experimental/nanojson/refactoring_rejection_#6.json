@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "JsonObject is not a standard Java collection interface",
+  "scope": "single_method",
+  "risk_level": "high"
+}

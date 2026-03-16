@@ -1,0 +1,6 @@
+
+Step 1: Locate private methods that are never invoked.
+
+Step 2: Verify there are no signs of reflection-based calls (e.g., string-form method names).
+
+Step 3: Delete the method definition; if call sites previously existed but were removed, ensure the class remains compilable.

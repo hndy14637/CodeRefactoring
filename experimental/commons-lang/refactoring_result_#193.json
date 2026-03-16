@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface in method parameter declaration",
+  "patched_code": "private String insertFormats(final String pattern, final List<String> customPatterns) {"
+}

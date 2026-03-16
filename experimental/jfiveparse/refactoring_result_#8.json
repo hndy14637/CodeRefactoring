@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to avoid reassigning the method parameter",
+  "patched_code": "Node newElement = element.parentNode;"
+}

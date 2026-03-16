@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "variable 'p' is part of enhanced for loop syntax",
+  "scope": "local_block",
+  "risk_level": "high"
+}

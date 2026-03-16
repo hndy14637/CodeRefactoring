@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced explicit resource cleanup with try-with-resources statement",
+  "patched_code": "try (Statement stm = stm) {\n\treturn from(stm);\n}"
+}

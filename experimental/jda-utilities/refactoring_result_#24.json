@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted String.format to parameterized logging to avoid string concatenation overhead",
+  "patched_code": "LOG.warn(\"The provided Owner ID ({}) was found unsafe! Make sure ID is a non-negative long!\", ownerId);"
+}

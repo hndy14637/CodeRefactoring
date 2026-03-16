@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to store the modified value instead of reassigning the parameter",
+  "patched_code": "int newOffset = offset % n;"
+}

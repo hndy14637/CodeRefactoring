@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "n is used for optimization and is truly interdependent with i",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed unused parameter 'i1' from private method and updated the method signature",
+  "patched_code": "private static final boolean jjCanMove_0(int hiByte, int i2, long l1, long l2)"
+}

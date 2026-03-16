@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable 'm' to a local variable declaration before the loop since it's only used for the loop condition",
+  "patched_code": "int m = _rows.size();\nfor (int i = 0; i < m; i++) {"
+}

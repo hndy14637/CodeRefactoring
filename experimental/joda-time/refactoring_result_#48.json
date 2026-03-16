@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced explicit Long constructor call with Long.valueOf() to follow PMD best practices while preserving the same behavior",
+  "patched_code": "millis = Long.valueOf( lVal );"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to toString() method which is overriding a superclass method",
+  "patched_code": "@Override\n\tpublic String toString() {"
+}

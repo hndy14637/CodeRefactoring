@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The assignment to 'calledConnecting' has no side effects and the variable is never used, so it can be safely removed",
+  "patched_code": ""
+}

@@ -1,0 +1,7 @@
+Step 1: Locate `default` branches in `switch` statements that are not in the last position.
+
+Step 2: Move the `default` case to the end of the switch block, ensuring the execution order semantics remain unchanged.
+
+Step 3: If there are fall-through cases (missing `break` statements), handle with caution during automated refactoring:
+- First insert a `// WARNING: fall-through case - manual review required` comment
+- Do not automatically rearrange such cases to avoid altering control flow

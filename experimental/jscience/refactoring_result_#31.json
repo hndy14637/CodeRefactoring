@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable 'm' outside the for-loop initialization since it's not interdependent with 'i'",
+  "patched_code": "int m = that.getNumberOfRows();\nfor (int i = 0; i < m; i++) {"
+}

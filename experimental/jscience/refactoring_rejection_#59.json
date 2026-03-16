@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "abstract method cannot have @Override",
+  "scope": "single_method",
+  "risk_level": "high"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to put the literal first in the String comparison to avoid potential NPE",
+  "patched_code": "if (\"zh\".equals(locale)) {"
+}

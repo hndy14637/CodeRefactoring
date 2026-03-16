@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly adds the @FunctionalInterface annotation to the interface, which clearly removes the PMD violation without introducing any suspicious behavior or API changes. The interface qualifies as a functional interface since it has exactly one abstract method (inherited from Comparable)."
+}

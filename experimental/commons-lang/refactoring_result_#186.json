@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed unused private field CTJ_JOINER as it was never read and no special cases like reflection/serialization were present.",
+  "patched_code": ""
+}

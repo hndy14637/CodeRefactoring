@@ -1,0 +1,4 @@
+
+Step 1: Find abstract classes that have no abstract methods.
+
+Step 2: If they are only used as "base classes and should not be instantiated directly," keep them abstract and add a protected constructor (to prevent direct external instantiation with new).

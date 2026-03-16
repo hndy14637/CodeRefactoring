@@ -1,0 +1,7 @@
+Step 1: Locate instantiation of wrapper classes via constructor calls (e.g., new Integer(1), new Long(1L)).
+
+Step 2: Replace with either:
+
+Static factory method: Integer.valueOf(1)
+Autoboxing syntax: Integer x = 1;
+Step 3: Preserve original semantics while eliminating explicit constructor calls.

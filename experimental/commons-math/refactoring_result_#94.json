@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @FunctionalInterface annotation since this appears to be intended as a functional interface (has exactly one abstract method)",
+  "patched_code": "@FunctionalInterface\npublic interface StoppingCondition {\n"
+}

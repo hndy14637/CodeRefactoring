@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable 'newT' to store the value of 'tmp' instead of reassigning the parameter 't'",
+  "patched_code": "final Object newT = tmp;"
+}

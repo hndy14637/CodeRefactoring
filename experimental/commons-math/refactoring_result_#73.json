@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @FunctionalInterface annotation since the interface has exactly one abstract method and appears intended to be a functional interface",
+  "patched_code": "@FunctionalInterface\ninterface Sampler {\n"
+}

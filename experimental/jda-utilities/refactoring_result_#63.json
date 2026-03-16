@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete implementation type ArrayList with interface List",
+  "patched_code": "List<Emote> wrongcase = new ArrayList<>();"
+}

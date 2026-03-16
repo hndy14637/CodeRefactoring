@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to toString() method which overrides Object.toString()",
+  "patched_code": "@Override\n  public String toString()"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced size() == 0 check with isEmpty() for better readability and adherence to best practices",
+  "patched_code": "if(this.stack.isEmpty())return -1;"
+}

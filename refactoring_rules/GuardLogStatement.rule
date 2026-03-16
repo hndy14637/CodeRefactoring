@@ -1,0 +1,11 @@
+Step 1: For heavy string concatenation in log statements like `log.debug("x "+a+" y "+b)`, check for missing `log.isDebugEnabled()` guard.
+
+Step 2 (Option A): Wrap with:
+```java
+if (log.isDebugEnabled()) { log.debug(...); }
+```
+
+Step 3 (Option B, recommended): Convert to parameterized logging:
+```java
+log.debug("x {} y {}", a, b);// Avoids concatenation overhead
+```

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced constructor call with Double.valueOf() as per PMD best practice",
+  "patched_code": "final boolean expected = p._x.equals(Double.valueOf(q._x.longValue()));"
+}

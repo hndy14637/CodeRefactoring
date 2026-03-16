@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete Stack type with its interface Deque",
+  "patched_code": "    private Deque<Object> json = new Stack<>();"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface type declaration while keeping the ArrayList implementation in the constructor",
+  "patched_code": "List<VoiceChannel> startswith = new ArrayList<>();"
+}

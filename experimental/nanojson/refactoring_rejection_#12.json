@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "field is final, likely intentionally long-lived",
+  "scope": "class_wide",
+  "risk_level": "high"
+}

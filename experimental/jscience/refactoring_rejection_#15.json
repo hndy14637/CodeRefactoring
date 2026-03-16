@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "increment is part of loop control",
+  "scope": "local_block",
+  "risk_level": "low"
+}

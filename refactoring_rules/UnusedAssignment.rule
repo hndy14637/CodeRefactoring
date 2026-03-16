@@ -1,0 +1,6 @@
+
+Step 1: Locate variable assignments where the variable's value is never read in subsequent code.
+
+Step 2: If the assignment expression has no side effects (pure computation), delete the assignment statement directly.
+
+Step 3: If there are side effects (e.g., function calls), retain the side-effect expression as a standalone statement and remove the unused variable.

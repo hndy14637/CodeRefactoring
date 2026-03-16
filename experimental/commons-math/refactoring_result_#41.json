@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored string comparisons to have literals first to avoid potential NPEs and follow PMD best practices",
+  "patched_code": "if (\"toRadians\".equals(methodName) || \"atan2\".equals(methodName)) {"
+}

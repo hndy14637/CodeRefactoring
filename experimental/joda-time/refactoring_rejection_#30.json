@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "cannot confirm if method overrides without full context",
+  "scope": "single_method",
+  "risk_level": "medium"
+}

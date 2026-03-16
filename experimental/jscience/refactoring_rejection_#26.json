@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "index used for other purposes (getRow)",
+  "scope": "local_block",
+  "risk_level": "high"
+}

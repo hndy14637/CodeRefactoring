@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "incomplete context: cannot determine if 'index' is a loop control variable",
+  "scope": "local_block",
+  "risk_level": "high"
+}

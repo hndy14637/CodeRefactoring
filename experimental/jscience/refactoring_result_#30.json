@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed unused private field 'zero' as it was never read and not part of any special case like serialization or reflection.",
+  "patched_code": ""
+}

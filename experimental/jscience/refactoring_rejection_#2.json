@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "constant is initialized with method call",
+  "scope": "class_wide",
+  "risk_level": "high"
+}

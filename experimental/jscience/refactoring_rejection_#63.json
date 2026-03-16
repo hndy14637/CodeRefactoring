@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "pow and modInverse may have side effects",
+  "scope": "local_block",
+  "risk_level": "medium"
+}

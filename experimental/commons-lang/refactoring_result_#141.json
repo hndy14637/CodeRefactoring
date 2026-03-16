@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to store the result of ObjectUtils.toString() instead of reassigning the parameter",
+  "patched_code": "String newReplaceChars = ObjectUtils.toString(replaceChars);"
+}

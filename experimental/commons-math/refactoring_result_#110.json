@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The loop can be converted to an enhanced for-loop since it only accesses array elements and doesn't use the index 'i' for other purposes.",
+  "patched_code": "for (double imagEigenvalue : imagEigenvalues) {\n    if (!Precision.equals(imagEigenvalue, 0.0, EPSILON)) {\n        return true;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable 'minLen' to store the result of the calculation instead of reassigning the parameter 'len'",
+  "patched_code": "int minLen = Math.min(Math.min(len, array.length - offset1), array.length - offset2);"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable iii to be initialized inside the loop body since it's not used in the loop condition",
+  "patched_code": "\t\tfor (int ii = 0; ii < m; ii++) {\n\t\t\tint iii = 0;"
+}

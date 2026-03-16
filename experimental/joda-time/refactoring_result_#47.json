@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced constructor call with static factory method as recommended by PMD rule",
+  "patched_code": "Long millis = Long.valueOf( lVal );"
+}

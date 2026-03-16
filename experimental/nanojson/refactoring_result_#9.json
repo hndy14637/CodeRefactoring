@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "The StringBuilder field 'key' is declared but its usage pattern is not provided. Without seeing how it's used in methods, we cannot determine if it's only used within a single method or if buffer reuse is truly necessary. The refactoring depends on the usage context.",
+  "patched_code": "private StringBuilder key = new StringBuilder();"
+}

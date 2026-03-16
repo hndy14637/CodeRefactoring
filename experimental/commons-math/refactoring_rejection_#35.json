@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "incomplete declaration",
+  "scope": "local_block",
+  "risk_level": "high"
+}

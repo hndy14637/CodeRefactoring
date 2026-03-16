@@ -1,0 +1,1153 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "7.19.0",
+  "timestamp": "2025-12-09T15:28:08.891+08:00",
+  "files": [
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonArray.java",
+      "violations": [
+        {
+          "beginline": 51,
+          "begincolumn": 16,
+          "endline": 51,
+          "endcolumn": 25,
+          "description": "Avoid using implementation types like 'JsonArray'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 28,
+          "endline": 58,
+          "endcolumn": 37,
+          "description": "Avoid using implementation types like 'JsonArray'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 16,
+          "endline": 65,
+          "endcolumn": 19,
+          "description": "The method 'get(int)' is missing an @Override annotation.",
+          "rule": "MissingOverride",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#missingoverride"
+        },
+        {
+          "beginline": 72,
+          "begincolumn": 9,
+          "endline": 72,
+          "endcolumn": 18,
+          "description": "Avoid using implementation types like 'JsonArray'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 79,
+          "begincolumn": 9,
+          "endline": 79,
+          "endcolumn": 18,
+          "description": "Avoid using implementation types like 'JsonArray'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 79,
+          "begincolumn": 37,
+          "endline": 79,
+          "endcolumn": 46,
+          "description": "Avoid using implementation types like 'JsonArray'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonBuilder.java",
+      "violations": [
+        {
+          "beginline": 29,
+          "begincolumn": 10,
+          "endline": 29,
+          "endcolumn": 23,
+          "description": "Avoid using implementation types like 'Stack'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 221,
+          "begincolumn": 10,
+          "endline": 221,
+          "endcolumn": 84,
+          "description": "Thrown exception does not preserve the stack trace of exception 'e' on all code paths",
+          "rule": "PreserveStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#preservestacktrace"
+        },
+        {
+          "beginline": 229,
+          "begincolumn": 10,
+          "endline": 229,
+          "endcolumn": 89,
+          "description": "Thrown exception does not preserve the stack trace of exception 'e' on all code paths",
+          "rule": "PreserveStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#preservestacktrace"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonObject.java",
+      "violations": [
+        {
+          "beginline": 57,
+          "begincolumn": 28,
+          "endline": 57,
+          "endcolumn": 38,
+          "description": "Avoid using implementation types like 'JsonObject'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 183,
+          "begincolumn": 9,
+          "endline": 183,
+          "endcolumn": 19,
+          "description": "Avoid using implementation types like 'JsonObject'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 190,
+          "begincolumn": 9,
+          "endline": 190,
+          "endcolumn": 19,
+          "description": "Avoid using implementation types like 'JsonObject'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 190,
+          "begincolumn": 42,
+          "endline": 190,
+          "endcolumn": 52,
+          "description": "Avoid using implementation types like 'JsonObject'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonParser.java",
+      "violations": [
+        {
+          "beginline": 85,
+          "begincolumn": 5,
+          "endline": 89,
+          "endcolumn": 6,
+          "description": "Consider using a try-with-resources statement instead of explicitly closing the resource",
+          "rule": "UseTryWithResources",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usetrywithresources"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonReader.java",
+      "violations": [
+        {
+          "beginline": 33,
+          "begincolumn": 10,
+          "endline": 33,
+          "endcolumn": 23,
+          "description": "StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).",
+          "rule": "AvoidStringBufferField",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidstringbufferfield"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonTokener.java",
+      "violations": [
+        {
+          "beginline": 37,
+          "begincolumn": 14,
+          "endline": 37,
+          "endcolumn": 21,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 38,
+          "begincolumn": 14,
+          "endline": 38,
+          "endcolumn": 26,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 48,
+          "begincolumn": 12,
+          "endline": 48,
+          "endcolumn": 25,
+          "description": "StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).",
+          "rule": "AvoidStringBufferField",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidstringbufferfield"
+        },
+        {
+          "beginline": 167,
+          "begincolumn": 34,
+          "endline": 167,
+          "endcolumn": 49,
+          "description": "Consider using varargs for methods or constructors which take an array the last parameter.",
+          "rule": "UseVarargs",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usevarargs"
+        },
+        {
+          "beginline": 214,
+          "begincolumn": 5,
+          "endline": 264,
+          "endcolumn": 6,
+          "description": "Avoid using labeled statements such as 'sw'.",
+          "rule": "LabeledStatement",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#labeledstatement"
+        },
+        {
+          "beginline": 426,
+          "begincolumn": 4,
+          "endline": 426,
+          "endcolumn": 5,
+          "description": "Avoid reassigning parameters such as 'c'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonWriter.java",
+      "violations": [
+        {
+          "beginline": 131,
+          "begincolumn": 6,
+          "endline": 131,
+          "endcolumn": 30,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/main/java/com/grack/nanojson/JsonWriterBase.java",
+      "violations": [
+        {
+          "beginline": 46,
+          "begincolumn": 16,
+          "endline": 46,
+          "endcolumn": 29,
+          "description": "StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).",
+          "rule": "AvoidStringBufferField",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidstringbufferfield"
+        },
+        {
+          "beginline": 430,
+          "begincolumn": 19,
+          "endline": 430,
+          "endcolumn": 27,
+          "description": "Consider using varargs for methods or constructors which take an array the last parameter.",
+          "rule": "UseVarargs",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usevarargs"
+        },
+        {
+          "beginline": 523,
+          "begincolumn": 8,
+          "endline": 523,
+          "endcolumn": 9,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 523,
+          "begincolumn": 12,
+          "endline": 523,
+          "endcolumn": 13,
+          "description": "The initializer for variable 'b' is never used (overwritten on line 525)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 584,
+          "begincolumn": 8,
+          "endline": 584,
+          "endcolumn": 9,
+          "description": "Avoid reassigning the loop control variable 'i'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/test/java/com/grack/nanojson/JsonNumberTest.java",
+      "violations": [
+        {
+          "beginline": 31,
+          "begincolumn": 14,
+          "endline": 31,
+          "endcolumn": 33,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 14,
+          "endline": 45,
+          "endcolumn": 30,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 14,
+          "endline": 61,
+          "endcolumn": 26,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 77,
+          "begincolumn": 14,
+          "endline": 77,
+          "endcolumn": 28,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 109,
+          "begincolumn": 14,
+          "endline": 109,
+          "endcolumn": 29,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/test/java/com/grack/nanojson/JsonParserTest.java",
+      "violations": [
+        {
+          "beginline": 44,
+          "begincolumn": 10,
+          "endline": 44,
+          "endcolumn": 34,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 14,
+          "endline": 51,
+          "endcolumn": 28,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 67,
+          "begincolumn": 14,
+          "endline": 67,
+          "endcolumn": 30,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 14,
+          "endline": 93,
+          "endcolumn": 29,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 99,
+          "begincolumn": 14,
+          "endline": 99,
+          "endcolumn": 34,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 105,
+          "begincolumn": 14,
+          "endline": 105,
+          "endcolumn": 35,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 114,
+          "begincolumn": 14,
+          "endline": 114,
+          "endcolumn": 28,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 120,
+          "begincolumn": 14,
+          "endline": 120,
+          "endcolumn": 33,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 126,
+          "begincolumn": 14,
+          "endline": 126,
+          "endcolumn": 34,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 132,
+          "begincolumn": 14,
+          "endline": 132,
+          "endcolumn": 28,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 143,
+          "begincolumn": 14,
+          "endline": 143,
+          "endcolumn": 37,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 158,
+          "begincolumn": 14,
+          "endline": 158,
+          "endcolumn": 38,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 180,
+          "begincolumn": 14,
+          "endline": 180,
+          "endcolumn": 31,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 221,
+          "begincolumn": 14,
+          "endline": 221,
+          "endcolumn": 25,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 236,
+          "begincolumn": 14,
+          "endline": 236,
+          "endcolumn": 30,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 319,
+          "begincolumn": 14,
+          "endline": 319,
+          "endcolumn": 37,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 655,
+          "begincolumn": 14,
+          "endline": 655,
+          "endcolumn": 39,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 656,
+          "begincolumn": 95,
+          "endline": 657,
+          "endcolumn": 22,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        },
+        {
+          "beginline": 679,
+          "begincolumn": 14,
+          "endline": 679,
+          "endcolumn": 30,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 685,
+          "begincolumn": 14,
+          "endline": 685,
+          "endcolumn": 33,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 686,
+          "begincolumn": 21,
+          "endline": 686,
+          "endcolumn": 48,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        },
+        {
+          "beginline": 692,
+          "begincolumn": 14,
+          "endline": 692,
+          "endcolumn": 33,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 693,
+          "begincolumn": 21,
+          "endline": 693,
+          "endcolumn": 48,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        },
+        {
+          "beginline": 699,
+          "begincolumn": 14,
+          "endline": 699,
+          "endcolumn": 33,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 706,
+          "begincolumn": 14,
+          "endline": 706,
+          "endcolumn": 33,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 725,
+          "begincolumn": 14,
+          "endline": 725,
+          "endcolumn": 34,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 728,
+          "begincolumn": 3,
+          "endline": 734,
+          "endcolumn": 4,
+          "description": "This for loop can be replaced by a foreach loop",
+          "rule": "ForLoopCanBeForeach",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#forloopcanbeforeach"
+        },
+        {
+          "beginline": 782,
+          "begincolumn": 4,
+          "endline": 787,
+          "endcolumn": 5,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 792,
+          "begincolumn": 14,
+          "endline": 792,
+          "endcolumn": 25,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 818,
+          "begincolumn": 14,
+          "endline": 818,
+          "endcolumn": 25,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 825,
+          "begincolumn": 14,
+          "endline": 825,
+          "endcolumn": 53,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 842,
+          "begincolumn": 14,
+          "endline": 842,
+          "endcolumn": 57,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 870,
+          "begincolumn": 14,
+          "endline": 870,
+          "endcolumn": 25,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 909,
+          "begincolumn": 5,
+          "endline": 914,
+          "endcolumn": 6,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/test/java/com/grack/nanojson/JsonReaderTest.java",
+      "violations": [
+        {
+          "beginline": 42,
+          "begincolumn": 14,
+          "endline": 42,
+          "endcolumn": 24,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 57,
+          "begincolumn": 14,
+          "endline": 57,
+          "endcolumn": 23,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 80,
+          "begincolumn": 14,
+          "endline": 80,
+          "endcolumn": 32,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 135,
+          "begincolumn": 14,
+          "endline": 135,
+          "endcolumn": 29,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 179,
+          "begincolumn": 14,
+          "endline": 179,
+          "endcolumn": 32,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 216,
+          "begincolumn": 14,
+          "endline": 216,
+          "endcolumn": 35,
+          "description": "This unit test should include assert() or fail()",
+          "rule": "UnitTestShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestshouldincludeassert"
+        },
+        {
+          "beginline": 227,
+          "begincolumn": 17,
+          "endline": 227,
+          "endcolumn": 45,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/test/java/com/grack/nanojson/JsonTypesTest.java",
+      "violations": [
+        {
+          "beginline": 35,
+          "begincolumn": 14,
+          "endline": 35,
+          "endcolumn": 27,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 14,
+          "endline": 51,
+          "endcolumn": 30,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 14,
+          "endline": 64,
+          "endcolumn": 28,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 77,
+          "begincolumn": 14,
+          "endline": 77,
+          "endcolumn": 26,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 94,
+          "begincolumn": 14,
+          "endline": 94,
+          "endcolumn": 29,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 108,
+          "begincolumn": 14,
+          "endline": 108,
+          "endcolumn": 27,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 122,
+          "begincolumn": 14,
+          "endline": 122,
+          "endcolumn": 29,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        }
+      ]
+    },
+    {
+      "filename": "/nanojson-master/src/test/java/com/grack/nanojson/JsonWriterTest.java",
+      "violations": [
+        {
+          "beginline": 46,
+          "begincolumn": 14,
+          "endline": 46,
+          "endcolumn": 30,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 96,
+          "begincolumn": 14,
+          "endline": 96,
+          "endcolumn": 55,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 116,
+          "begincolumn": 14,
+          "endline": 116,
+          "endcolumn": 22,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 136,
+          "begincolumn": 14,
+          "endline": 136,
+          "endcolumn": 36,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 190,
+          "begincolumn": 14,
+          "endline": 190,
+          "endcolumn": 31,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 221,
+          "begincolumn": 14,
+          "endline": 221,
+          "endcolumn": 24,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 273,
+          "begincolumn": 14,
+          "endline": 273,
+          "endcolumn": 35,
+          "description": "Unit tests should not contain more than 1 assert(s).",
+          "rule": "UnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 498,
+          "begincolumn": 3,
+          "endline": 503,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 508,
+          "begincolumn": 3,
+          "endline": 513,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 518,
+          "begincolumn": 3,
+          "endline": 523,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 528,
+          "begincolumn": 3,
+          "endline": 533,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 548,
+          "begincolumn": 3,
+          "endline": 553,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 558,
+          "begincolumn": 3,
+          "endline": 563,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 568,
+          "begincolumn": 3,
+          "endline": 573,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 578,
+          "begincolumn": 3,
+          "endline": 583,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 588,
+          "begincolumn": 3,
+          "endline": 593,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 598,
+          "begincolumn": 3,
+          "endline": 603,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        },
+        {
+          "beginline": 608,
+          "begincolumn": 3,
+          "endline": 614,
+          "endcolumn": 4,
+          "description": "In JUnit4, use the @Test(expected) annotation to denote tests that should throw exceptions",
+          "rule": "JUnitUseExpected",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#junituseexpected"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": []
+}

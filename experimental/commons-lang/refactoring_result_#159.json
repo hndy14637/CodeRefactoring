@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The interface has exactly one abstract method and appears to be intended as a functional interface, so @FunctionalInterface annotation was added",
+  "patched_code": "@FunctionalInterface\npublic interface ConcurrentInitializer<T> extends FailableSupplier<T, ConcurrentException> {"
+}

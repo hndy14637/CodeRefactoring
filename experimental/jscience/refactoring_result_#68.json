@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Refactored to place string literal first in comparison to avoid potential NPE and follow PMD best practices",
+  "patched_code": "if (\"UCUM\".equals(name)) return UCUM.getInstance();"
+}

@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly replaces the concrete HashMap type with the Map interface while maintaining the concrete implementation in the constructor call, fully resolving the PMD violation without introducing any suspicious behavior."
+}

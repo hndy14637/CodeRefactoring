@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to the equals method to comply with PMD best practices",
+  "patched_code": "@Override\n\tboolean equals(Object o);"
+}

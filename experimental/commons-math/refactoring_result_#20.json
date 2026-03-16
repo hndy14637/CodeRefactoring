@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Modified the return statement to return a copy of the internal array to prevent exposure of the internal state",
+  "patched_code": "return color.clone();"
+}

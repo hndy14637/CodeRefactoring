@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable 'm' to a local variable before the loop since it's only calculated once",
+  "patched_code": "for (int i = 0, m = that.numberOfRows(); i < m; i++) {"
+}

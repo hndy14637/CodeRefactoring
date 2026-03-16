@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "increment operation is not a simple reassignment",
+  "scope": "local_block",
+  "risk_level": "high"
+}

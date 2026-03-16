@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @FunctionalInterface annotation as the interface appears to be intended as a functional interface with one abstract method",
+  "patched_code": "@FunctionalInterface\npublic interface UnivariateFunctionDifferentiator {\n\n}"
+}

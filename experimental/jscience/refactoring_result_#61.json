@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced Double constructor call with Double.valueOf() as per PMD best practices",
+  "patched_code": "final Double qd = Double.valueOf(ql);"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted string concatenation in log statement to parameterized logging format to avoid concatenation overhead without changing behavior",
+  "patched_code": "if (siUnit == null) LogContext.warning(\"Quantity type: {} unknown\", quantityType);"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete HashMap type with interface Map to follow loose coupling principle",
+  "patched_code": "private final Map<Class<? extends Annotation>, DocConverter<? extends Annotation>> map;"
+}

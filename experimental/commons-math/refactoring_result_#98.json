@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced direct array assignment with a null-safe clone operation to prevent NPE",
+  "patched_code": "data = d != null ? d.clone() : null;"
+}

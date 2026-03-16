@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "method signature only, cannot determine usage",
+  "scope": "single_method",
+  "risk_level": "high"
+}

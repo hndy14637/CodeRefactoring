@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced direct modification of loop variable with a temporary variable to avoid reassigning loop control variable",
+  "patched_code": "int tmp = iii + 1;"
+}

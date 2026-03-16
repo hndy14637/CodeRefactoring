@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable jjj to be initialized inside the loop body since it doesn't appear to be interdependent with jj",
+  "patched_code": "for (int jj = 0; jj < n; jj++) {\n    int jjj = 0;"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Applied defensive copying of the input array to prevent direct storage of user-supplied array",
+  "patched_code": "expectedTokenSequences = expectedTokenSequencesVal != null ? expectedTokenSequencesVal.clone() : null;"
+}

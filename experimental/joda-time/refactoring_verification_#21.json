@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly replaces FileReader with InputStreamReader and explicitly specifies UTF-8 charset, which resolves the PMD violation without introducing any suspicious behavior."
+}

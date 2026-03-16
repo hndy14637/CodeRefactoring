@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Changed direct array assignment to use clone() to prevent NPE and avoid storing user-supplied array directly",
+  "patched_code": "this.rowNames = rows != null ? rows.clone() : null;"
+}

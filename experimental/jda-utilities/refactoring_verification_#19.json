@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly replaces HashMap with Map interface while maintaining the same behavior, effectively addressing the PMD violation without introducing any suspicious changes."
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to avoid reassigning the parameter",
+  "patched_code": "int newEndIndexExclusive = Math.min(endIndexExclusive, array.length);"
+}

@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "assignment chain has side effects",
+  "scope": "local_block",
+  "risk_level": "high"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface while keeping the concrete implementation in constructor",
+  "patched_code": "List<Role> contains = new ArrayList<>();"
+}

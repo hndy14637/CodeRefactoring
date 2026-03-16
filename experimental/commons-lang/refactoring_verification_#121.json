@@ -1,0 +1,5 @@
+{
+  "verdict": "accept",
+  "still_violates_rule": false,
+  "description": "The patch correctly replaces the concrete EnumSet with the Set interface while maintaining the same implementation in the constructor call, effectively removing the PMD violation without changing behavior."
+}

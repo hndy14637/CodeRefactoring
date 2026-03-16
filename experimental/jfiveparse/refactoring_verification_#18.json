@@ -1,0 +1,5 @@
+{
+  "verdict": "reject",
+  "still_violates_rule": true,
+  "description": "The patch does not address the PMD violation as it still keeps the constant in an interface. The constant should be moved to a dedicated constants class or enum."
+}

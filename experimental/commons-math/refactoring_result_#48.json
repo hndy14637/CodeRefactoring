@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The interface has exactly one abstract method and appears to be intended as a functional interface, so added @FunctionalInterface annotation",
+  "patched_code": "@FunctionalInterface\npublic interface RealFieldUnivariateFunction<T extends RealFieldElement<T>> {\n\n}"
+}

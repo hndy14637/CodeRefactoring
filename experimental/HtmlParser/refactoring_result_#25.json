@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced manual resource cleanup with try-with-resources statement",
+  "patched_code": "try (FileInputStream input = new FileInputStream(file)) {\n      return streamToString(input);\n    }"
+}

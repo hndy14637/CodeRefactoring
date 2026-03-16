@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The local variable 'pRow' is declared but never used. Since the initialization expression 'pivot[row]' might have side effects (array access could throw exceptions), we keep the expression but remove the variable declaration.",
+  "patched_code": "pivot[row];"
+}

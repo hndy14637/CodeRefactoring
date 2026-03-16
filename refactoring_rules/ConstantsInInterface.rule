@@ -1,0 +1,6 @@
+
+Step 1: Locate public static final fields within interfaces.
+
+Step 2: Create a constants class (XxxConstants) or enum.
+
+Step 3: Move the constants from the interface to the constants class/enum, and update all references to use XxxConstants.CONST_NAME or EnumType.CONST.

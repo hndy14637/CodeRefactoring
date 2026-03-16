@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Introduced a new local variable to store the result of primitiveToWrapper() instead of reassigning the parameter",
+  "patched_code": "Class<?> newCls = primitiveToWrapper(cls);"
+}

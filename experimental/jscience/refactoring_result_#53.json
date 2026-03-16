@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to hashCode() method which overrides Object.hashCode()",
+  "patched_code": "@Override\n\tint hashCode();"
+}

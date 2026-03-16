@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "assignment has side effect (post-increment)",
+  "scope": "local_block",
+  "risk_level": "high"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Moved secondary control variable 'k' to be initialized inside the loop body since it doesn't appear to be interdependent with the primary variable 'ii'",
+  "patched_code": "\t\t\tfor (int ii = 0; ii <= rows.length; ii++) {\n\t\t\t\tint k = 0;"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "skip",
+  "reason": "The loop uses the index 'j' to access array elements directly, which is necessary for comparison operations. Converting to an enhanced for-loop would lose access to the index, potentially changing the behavior.",
+  "patched_code": ""
+}

@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "index 'i' is used to access array element",
+  "scope": "local_block",
+  "risk_level": "high"
+}

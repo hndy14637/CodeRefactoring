@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete TreeSet type with interface NavigableSet to follow loose coupling principle",
+  "patched_code": "final NavigableSet<T> treeSet = new TreeSet<>(comparator);"
+}

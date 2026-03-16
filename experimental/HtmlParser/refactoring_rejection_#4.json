@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "cannot determine usage from single line",
+  "scope": "class_wide",
+  "risk_level": "high"
+}

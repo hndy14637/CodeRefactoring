@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "decrementing loop variable is common for loop control",
+  "scope": "local_block",
+  "risk_level": "high"
+}

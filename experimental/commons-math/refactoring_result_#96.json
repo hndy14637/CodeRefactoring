@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface while maintaining the same implementation in constructor",
+  "patched_code": "List<FieldMatrix<T>> results = new ArrayList<>("
+}

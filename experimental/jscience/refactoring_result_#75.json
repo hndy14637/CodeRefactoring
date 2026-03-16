@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Removed the unused variable 'k' since its initial value is never read before being overwritten",
+  "patched_code": "int i = 0, j = 0;"
+}

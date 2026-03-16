@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The assignment to 'lower' is unused and has no side effects, so it can be safely removed",
+  "patched_code": ""
+}

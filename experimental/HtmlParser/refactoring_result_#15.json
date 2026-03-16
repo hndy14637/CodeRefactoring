@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Applied ArrayIsStoredDirectly fix by cloning the input array to prevent direct storage",
+  "patched_code": "this.ilist = ilist != null ? ilist.clone() : null;"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Converted index-based for-loop to enhanced for-loop as it only accesses array elements without using the index for other purposes",
+  "patched_code": "for (IGroup iGroup : iGroups) {\n    iGroup.setResultText(text);\n}"
+}

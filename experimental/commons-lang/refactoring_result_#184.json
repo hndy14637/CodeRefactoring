@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added null check and clone() to prevent storing the array directly",
+  "patched_code": "this.lowerBounds = bounds != null ? bounds.clone() : null;"
+}

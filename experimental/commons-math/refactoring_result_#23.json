@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete TreeSet type declaration with interface NavigableSet while keeping the TreeSet implementation in constructor",
+  "patched_code": "NavigableSet<Double> values = new TreeSet<>();"
+}

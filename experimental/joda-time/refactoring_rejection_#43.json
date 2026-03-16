@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "variable 'column' is used in array index expression",
+  "scope": "local_block",
+  "risk_level": "high"
+}

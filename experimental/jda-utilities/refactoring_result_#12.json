@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced ArrayList with List interface type declaration while keeping the implementation",
+  "patched_code": "List<String> messages = splitMessage(message);"
+}

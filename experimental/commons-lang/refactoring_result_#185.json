@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Applied the refactoring recipe to prevent storing the user-supplied array directly by cloning it when non-null",
+  "patched_code": "this.upperBounds = bounds != null ? bounds.clone() : null;"
+}

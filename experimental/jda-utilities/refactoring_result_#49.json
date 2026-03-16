@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete ArrayList type with List interface while keeping the ArrayList constructor",
+  "patched_code": "List<TextChannel> contains = new ArrayList<>();"
+}

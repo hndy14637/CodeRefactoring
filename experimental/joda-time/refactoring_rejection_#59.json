@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "column++ has side effect (increment)",
+  "scope": "local_block",
+  "risk_level": "high"
+}

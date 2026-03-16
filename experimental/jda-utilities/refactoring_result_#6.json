@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Replaced concrete implementation type LinkedList with interface List",
+  "patched_code": "private final List<Command> children = new LinkedList<>();"
+}

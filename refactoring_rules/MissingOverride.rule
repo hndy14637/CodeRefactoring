@@ -1,0 +1,6 @@
+
+Step 1: Locate methods that override superclass/interface methods but lack the @Override annotation.
+
+Step 2: Add @Override before the method signature.
+
+Step 3: Ensure proper import (typically unnecessary since Override is in java.lang).

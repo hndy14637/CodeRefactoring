@@ -1,0 +1,6 @@
+
+Step 1: Identify the pattern where an outer class instantiates an inner class with a private constructor (e.g., new Inner() in outer class methods), where Inner is a non-static inner class.
+
+Step 2: Change the inner class constructor to package-private or protected to eliminate the compiler-generated accessor class requirement.
+
+Step 3: If the nested structure is unnecessary, refactor the inner class into a standalone top-level class or a static inner class.

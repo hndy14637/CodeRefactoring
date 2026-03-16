@@ -1,0 +1,1323 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "7.19.0",
+  "timestamp": "2025-12-09T14:48:11.815+08:00",
+  "files": [
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Attr.java",
+      "violations": [
+        {
+          "beginline": 4,
+          "begincolumn": 13,
+          "endline": 4,
+          "endcolumn": 26,
+          "description": "StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).",
+          "rule": "AvoidStringBufferField",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidstringbufferfield"
+        },
+        {
+          "beginline": 5,
+          "begincolumn": 13,
+          "endline": 5,
+          "endcolumn": 26,
+          "description": "StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).",
+          "rule": "AvoidStringBufferField",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidstringbufferfield"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Html5Decoder.java",
+      "violations": [
+        {
+          "beginline": 32,
+          "begincolumn": 46,
+          "endline": 32,
+          "endcolumn": 50,
+          "description": "The field initializer for 'valueDecoder' is never used (overwritten on line 41)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 21,
+          "endline": 35,
+          "endcolumn": 33,
+          "description": "Avoid unused private fields such as 'valueIserror'.",
+          "rule": "UnusedPrivateField",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedprivatefield"
+        },
+        {
+          "beginline": 118,
+          "begincolumn": 13,
+          "endline": 118,
+          "endcolumn": 19,
+          "description": "Avoid reassigning parameters such as 'offset'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 120,
+          "begincolumn": 13,
+          "endline": 120,
+          "endcolumn": 19,
+          "description": "Avoid reassigning parameters such as 'length'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 147,
+          "begincolumn": 31,
+          "endline": 147,
+          "endcolumn": 35,
+          "description": "The value assigned to field 'valueIserror' is never used (reassigned every iteration)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlEntities.java",
+      "violations": [
+        {
+          "beginline": 637,
+          "begincolumn": 9,
+          "endline": 637,
+          "endcolumn": 30,
+          "description": "Returning 'ValueEntities' may expose an internal array.",
+          "rule": "MethodReturnsInternalArray",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#methodreturnsinternalarray"
+        },
+        {
+          "beginline": 641,
+          "begincolumn": 9,
+          "endline": 641,
+          "endcolumn": 35,
+          "description": "Returning 'ValueEntityDoubles' may expose an internal array.",
+          "rule": "MethodReturnsInternalArray",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#methodreturnsinternalarray"
+        },
+        {
+          "beginline": 645,
+          "begincolumn": 9,
+          "endline": 645,
+          "endcolumn": 34,
+          "description": "Returning 'valueEntityValues' may expose an internal array.",
+          "rule": "MethodReturnsInternalArray",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#methodreturnsinternalarray"
+        },
+        {
+          "beginline": 652,
+          "begincolumn": 7,
+          "endline": 652,
+          "endcolumn": 12,
+          "description": "Avoid reassigning parameters such as 'value'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 673,
+          "begincolumn": 7,
+          "endline": 673,
+          "endcolumn": 12,
+          "description": "Avoid reassigning parameters such as 'index'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/IComment.java",
+      "violations": [
+        {
+          "beginline": 30,
+          "begincolumn": 10,
+          "endline": 30,
+          "endcolumn": 19,
+          "description": "Annotate this interface with @FunctionalInterface or with @SuppressWarnings(\"PMD.ImplicitFunctionalInterface\") to clarify your intent.",
+          "rule": "ImplicitFunctionalInterface",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#implicitfunctionalinterface"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/IText.java",
+      "violations": [
+        {
+          "beginline": 30,
+          "begincolumn": 10,
+          "endline": 30,
+          "endcolumn": 19,
+          "description": "Annotate this interface with @FunctionalInterface or with @SuppressWarnings(\"PMD.ImplicitFunctionalInterface\") to clarify your intent.",
+          "rule": "ImplicitFunctionalInterface",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#implicitfunctionalinterface"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/io/ConditionalBufferInputStream.java",
+      "violations": [
+        {
+          "beginline": 26,
+          "begincolumn": 25,
+          "endline": 26,
+          "endcolumn": 29,
+          "description": "The field initializer for 'buffer' is never used (overwritten on line 37)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 30,
+          "endline": 33,
+          "endcolumn": 34,
+          "description": "The field initializer for 'stream' is never used (overwritten on line 36)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 189,
+          "begincolumn": 15,
+          "endline": 189,
+          "endcolumn": 16,
+          "description": "The initializer for variable 'count' is never used (overwritten on lines 220 and 238)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 204,
+          "begincolumn": 9,
+          "endline": 204,
+          "endcolumn": 15,
+          "description": "Avoid reassigning parameters such as 'offset'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 205,
+          "begincolumn": 9,
+          "endline": 205,
+          "endcolumn": 18,
+          "description": "Avoid reassigning parameters such as 'unitCount'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 293,
+          "begincolumn": 7,
+          "endline": 293,
+          "endcolumn": 16,
+          "description": "Avoid reassigning parameters such as 'byteCount'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/io/IntArrayCharacterInput.java",
+      "violations": [
+        {
+          "beginline": 17,
+          "begincolumn": 33,
+          "endline": 17,
+          "endcolumn": 44,
+          "description": "Consider using varargs for methods or constructors which take an array the last parameter.",
+          "rule": "UseVarargs",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usevarargs"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 5,
+          "endline": 18,
+          "endcolumn": 21,
+          "description": "The user-supplied array 'ilist' is stored directly.",
+          "rule": "ArrayIsStoredDirectly",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#arrayisstoreddirectly"
+        },
+        {
+          "beginline": 39,
+          "begincolumn": 7,
+          "endline": 39,
+          "endcolumn": 13,
+          "description": "Avoid reassigning parameters such as 'offset'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 7,
+          "endline": 41,
+          "endcolumn": 16,
+          "description": "Avoid reassigning parameters such as 'unitCount'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/io/StackableCharacterInput.java",
+      "violations": [
+        {
+          "beginline": 69,
+          "begincolumn": 11,
+          "endline": 69,
+          "endcolumn": 17,
+          "description": "Avoid reassigning parameters such as 'offset'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 70,
+          "begincolumn": 11,
+          "endline": 70,
+          "endcolumn": 20,
+          "description": "Avoid reassigning parameters such as 'unitCount'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 174,
+          "begincolumn": 17,
+          "endline": 174,
+          "endcolumn": 18,
+          "description": "The initializer for variable 'count' is never used (overwritten on lines 176 and 195)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 215,
+          "begincolumn": 8,
+          "endline": 215,
+          "endcolumn": 25,
+          "description": "Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()",
+          "rule": "UseCollectionIsEmpty",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usecollectionisempty"
+        },
+        {
+          "beginline": 216,
+          "begincolumn": 11,
+          "endline": 216,
+          "endcolumn": 28,
+          "description": "Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()",
+          "rule": "UseCollectionIsEmpty",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usecollectionisempty"
+        },
+        {
+          "beginline": 229,
+          "begincolumn": 8,
+          "endline": 229,
+          "endcolumn": 25,
+          "description": "Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()",
+          "rule": "UseCollectionIsEmpty",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usecollectionisempty"
+        },
+        {
+          "beginline": 236,
+          "begincolumn": 11,
+          "endline": 236,
+          "endcolumn": 28,
+          "description": "Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()",
+          "rule": "UseCollectionIsEmpty",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usecollectionisempty"
+        },
+        {
+          "beginline": 244,
+          "begincolumn": 7,
+          "endline": 244,
+          "endcolumn": 16,
+          "description": "Avoid reassigning parameters such as 'unitCount'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/io/StreamUtility.java",
+      "violations": [
+        {
+          "beginline": 35,
+          "begincolumn": 5,
+          "endline": 42,
+          "endcolumn": 6,
+          "description": "Consider using a try-with-resources statement instead of explicitly closing the resource",
+          "rule": "UseTryWithResources",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usetrywithresources"
+        },
+        {
+          "beginline": 48,
+          "begincolumn": 5,
+          "endline": 55,
+          "endcolumn": 6,
+          "description": "Consider using a try-with-resources statement instead of explicitly closing the resource",
+          "rule": "UseTryWithResources",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usetrywithresources"
+        },
+        {
+          "beginline": 107,
+          "begincolumn": 5,
+          "endline": 114,
+          "endcolumn": 6,
+          "description": "Consider using a try-with-resources statement instead of explicitly closing the resource",
+          "rule": "UseTryWithResources",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usetrywithresources"
+        },
+        {
+          "beginline": 135,
+          "begincolumn": 9,
+          "endline": 135,
+          "endcolumn": 14,
+          "description": "Avoid reassigning the loop control variable 'index'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/io/StringCharacterInput.java",
+      "violations": [
+        {
+          "beginline": 61,
+          "begincolumn": 7,
+          "endline": 61,
+          "endcolumn": 13,
+          "description": "Avoid reassigning parameters such as 'offset'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 7,
+          "endline": 62,
+          "endcolumn": 16,
+          "description": "Avoid reassigning parameters such as 'unitCount'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/io/Utf8CharacterInput.java",
+      "violations": [
+        {
+          "beginline": 38,
+          "begincolumn": 21,
+          "endline": 38,
+          "endcolumn": 22,
+          "description": "The value assigned to variable 'bytesNeeded' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 67,
+          "begincolumn": 12,
+          "endline": 67,
+          "endcolumn": 35,
+          "description": "The value assigned to variable 'cp' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 67,
+          "begincolumn": 24,
+          "endline": 67,
+          "endcolumn": 35,
+          "description": "The value assigned to variable 'bytesNeeded' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 67,
+          "begincolumn": 34,
+          "endline": 67,
+          "endcolumn": 35,
+          "description": "The value assigned to variable 'bytesSeen' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 15,
+          "endline": 68,
+          "endcolumn": 19,
+          "description": "The value assigned to variable 'lower' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 15,
+          "endline": 69,
+          "endcolumn": 19,
+          "description": "The value assigned to variable 'upper' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 82,
+          "begincolumn": 10,
+          "endline": 82,
+          "endcolumn": 11,
+          "description": "The value assigned to variable 'cp' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 83,
+          "begincolumn": 17,
+          "endline": 83,
+          "endcolumn": 18,
+          "description": "The value assigned to variable 'bytesSeen' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 84,
+          "begincolumn": 19,
+          "endline": 84,
+          "endcolumn": 20,
+          "description": "The value assigned to variable 'bytesNeeded' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 101,
+          "begincolumn": 11,
+          "endline": 101,
+          "endcolumn": 17,
+          "description": "Avoid reassigning parameters such as 'offset'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/DownloadHelperImpl.java",
+      "violations": [
+        {
+          "beginline": 170,
+          "begincolumn": 11,
+          "endline": 170,
+          "endcolumn": 30,
+          "description": "Avoid printStackTrace(); use a logger call instead.",
+          "rule": "AvoidPrintStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidprintstacktrace"
+        },
+        {
+          "beginline": 186,
+          "begincolumn": 7,
+          "endline": 186,
+          "endcolumn": 11,
+          "description": "Avoid reassigning parameters such as 'arg1'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 233,
+          "begincolumn": 13,
+          "endline": 233,
+          "endcolumn": 17,
+          "description": "The initializer for variable 'url' is never used (overwritten on line 274)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 243,
+          "begincolumn": 32,
+          "endline": 243,
+          "endcolumn": 36,
+          "description": "The initializer for variable 'response' is never used (overwritten on line 249)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 248,
+          "begincolumn": 28,
+          "endline": 248,
+          "endcolumn": 32,
+          "description": "The value assigned to variable 'calledConnecting' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 253,
+          "begincolumn": 17,
+          "endline": 253,
+          "endcolumn": 44,
+          "description": "Thrown exception does not preserve the stack trace of exception 'e' on all code paths",
+          "rule": "PreserveStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#preservestacktrace"
+        },
+        {
+          "beginline": 255,
+          "begincolumn": 17,
+          "endline": 255,
+          "endcolumn": 44,
+          "description": "Thrown exception does not preserve the stack trace of exception 'e' on all code paths",
+          "rule": "PreserveStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#preservestacktrace"
+        },
+        {
+          "beginline": 273,
+          "begincolumn": 5,
+          "endline": 316,
+          "endcolumn": 6,
+          "description": "Consider using a try-with-resources statement instead of explicitly closing the resource",
+          "rule": "UseTryWithResources",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usetrywithresources"
+        },
+        {
+          "beginline": 277,
+          "begincolumn": 26,
+          "endline": 277,
+          "endcolumn": 30,
+          "description": "The value assigned to variable 'calledConnecting' is never used",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/IOnFinishedListener.java",
+      "violations": [
+        {
+          "beginline": 33,
+          "begincolumn": 10,
+          "endline": 33,
+          "endcolumn": 19,
+          "description": "Annotate this interface with @FunctionalInterface or with @SuppressWarnings(\"PMD.ImplicitFunctionalInterface\") to clarify your intent.",
+          "rule": "ImplicitFunctionalInterface",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#implicitfunctionalinterface"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/IResponseListener.java",
+      "violations": [
+        {
+          "beginline": 33,
+          "begincolumn": 10,
+          "endline": 33,
+          "endcolumn": 19,
+          "description": "Annotate this interface with @FunctionalInterface or with @SuppressWarnings(\"PMD.ImplicitFunctionalInterface\") to clarify your intent.",
+          "rule": "ImplicitFunctionalInterface",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#implicitfunctionalinterface"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/LightweightCacheService.java",
+      "violations": [
+        {
+          "beginline": 55,
+          "begincolumn": 19,
+          "endline": 55,
+          "endcolumn": 20,
+          "description": "The initializer for variable 'size' is never used (overwritten on line 57)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 81,
+          "begincolumn": 19,
+          "endline": 81,
+          "endcolumn": 20,
+          "description": "The initializer for variable 'size' is never used (overwritten on line 83)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 112,
+          "begincolumn": 14,
+          "endline": 112,
+          "endcolumn": 18,
+          "description": "The initializer for variable 'o' is never used (overwritten on line 113)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/LightweightDownloadService.java",
+      "violations": [
+        {
+          "beginline": 65,
+          "begincolumn": 32,
+          "endline": 65,
+          "endcolumn": 36,
+          "description": "The initializer for variable 'poster' is never used (overwritten on line 67)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 83,
+          "begincolumn": 7,
+          "endline": 83,
+          "endcolumn": 26,
+          "description": "Avoid printStackTrace(); use a logger call instead.",
+          "rule": "AvoidPrintStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidprintstacktrace"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/ActionList.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 32,
+          "endline": 39,
+          "endcolumn": 36,
+          "description": "The initializer for variable 'action' is never used (overwritten on line 48)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 23,
+          "endline": 43,
+          "endcolumn": 27,
+          "description": "The initializer for variable 'postponed' is never used (overwritten on line 53)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 123,
+          "begincolumn": 32,
+          "endline": 123,
+          "endcolumn": 36,
+          "description": "The initializer for variable 'action' is never used (overwritten on line 138)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 127,
+          "begincolumn": 28,
+          "endline": 127,
+          "endcolumn": 32,
+          "description": "The initializer for variable 'boundObject' is never used (overwritten on line 132)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 157,
+          "begincolumn": 32,
+          "endline": 157,
+          "endcolumn": 36,
+          "description": "The initializer for variable 'action' is never used (overwritten on line 165)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/DataUtilities.java",
+      "violations": [
+        {
+          "beginline": 221,
+          "begincolumn": 1,
+          "endline": 234,
+          "endcolumn": 2,
+          "description": "Consider using a try-with-resources statement instead of explicitly closing the resource",
+          "rule": "UseTryWithResources",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usetrywithresources"
+        },
+        {
+          "beginline": 265,
+          "begincolumn": 13,
+          "endline": 265,
+          "endcolumn": 14,
+          "description": "Avoid reassigning the loop control variable 'i'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        },
+        {
+          "beginline": 269,
+          "begincolumn": 17,
+          "endline": 269,
+          "endcolumn": 18,
+          "description": "Avoid reassigning the loop control variable 'i'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        },
+        {
+          "beginline": 422,
+          "begincolumn": 16,
+          "endline": 422,
+          "endcolumn": 23,
+          "description": "The initializer for variable 'c' is never used (overwritten on lines 425 and 436)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 457,
+          "begincolumn": 16,
+          "endline": 457,
+          "endcolumn": 23,
+          "description": "The initializer for variable 'c' is never used (overwritten on lines 460 and 471)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        },
+        {
+          "beginline": 500,
+          "begincolumn": 11,
+          "endline": 500,
+          "endcolumn": 14,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 524,
+          "begincolumn": 15,
+          "endline": 524,
+          "endcolumn": 16,
+          "description": "Avoid reassigning the loop control variable 'i'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        },
+        {
+          "beginline": 629,
+          "begincolumn": 11,
+          "endline": 629,
+          "endcolumn": 19,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 659,
+          "begincolumn": 17,
+          "endline": 659,
+          "endcolumn": 22,
+          "description": "Avoid reassigning the loop control variable 'index'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        },
+        {
+          "beginline": 693,
+          "begincolumn": 15,
+          "endline": 693,
+          "endcolumn": 20,
+          "description": "Avoid reassigning the loop control variable 'index'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        },
+        {
+          "beginline": 803,
+          "begincolumn": 11,
+          "endline": 803,
+          "endcolumn": 18,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 852,
+          "begincolumn": 15,
+          "endline": 852,
+          "endcolumn": 18,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 1036,
+          "begincolumn": 15,
+          "endline": 1036,
+          "endcolumn": 18,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/DateTimeUtility.java",
+      "violations": [
+        {
+          "beginline": 83,
+          "begincolumn": 40,
+          "endline": 83,
+          "endcolumn": 56,
+          "description": "Consider using varargs for methods or constructors which take an array the last parameter.",
+          "rule": "UseVarargs",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usevarargs"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/IAction.java",
+      "violations": [
+        {
+          "beginline": 14,
+          "begincolumn": 10,
+          "endline": 14,
+          "endcolumn": 19,
+          "description": "Annotate this interface with @FunctionalInterface or with @SuppressWarnings(\"PMD.ImplicitFunctionalInterface\") to clarify your intent.",
+          "rule": "ImplicitFunctionalInterface",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#implicitfunctionalinterface"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/IBoundAction.java",
+      "violations": [
+        {
+          "beginline": 14,
+          "begincolumn": 10,
+          "endline": 14,
+          "endcolumn": 19,
+          "description": "Annotate this interface with @FunctionalInterface or with @SuppressWarnings(\"PMD.ImplicitFunctionalInterface\") to clarify your intent.",
+          "rule": "ImplicitFunctionalInterface",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#implicitfunctionalinterface"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/IndexedObjectList.java",
+      "violations": [
+        {
+          "beginline": 34,
+          "begincolumn": 15,
+          "endline": 34,
+          "endcolumn": 19,
+          "description": "The initializer for variable 'ret' is never used (overwritten on line 39)",
+          "rule": "UnusedAssignment",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedassignment"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/IntList.java",
+      "violations": [
+        {
+          "beginline": 63,
+          "begincolumn": 13,
+          "endline": 63,
+          "endcolumn": 14,
+          "description": "Avoid reassigning the loop control variable 'i'",
+          "rule": "AvoidReassigningLoopVariables",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningloopvariables"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 7,
+          "endline": 74,
+          "endcolumn": 21,
+          "description": "Returning 'buffer' may expose an internal array.",
+          "rule": "MethodReturnsInternalArray",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#methodreturnsinternalarray"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/StringUtility.java",
+      "violations": [
+        {
+          "beginline": 65,
+          "begincolumn": 7,
+          "endline": 65,
+          "endcolumn": 24,
+          "description": "Avoid using implementation types like 'ArrayList'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 114,
+          "begincolumn": 7,
+          "endline": 114,
+          "endcolumn": 24,
+          "description": "Avoid using implementation types like 'ArrayList'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 165,
+          "begincolumn": 7,
+          "endline": 165,
+          "endcolumn": 24,
+          "description": "Avoid using implementation types like 'ArrayList'; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#loosecoupling"
+        }
+      ]
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/SunriseSunset.java",
+      "violations": [
+        {
+          "beginline": 47,
+          "begincolumn": 27,
+          "endline": 47,
+          "endcolumn": 37,
+          "description": "Avoid unused private methods such as '__daylen__(int, int, int, double, double, double, boolean)'.",
+          "rule": "UnusedPrivateMethod",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#unusedprivatemethod"
+        },
+        {
+          "beginline": 100,
+          "begincolumn": 9,
+          "endline": 100,
+          "endcolumn": 14,
+          "description": "Avoid reassigning parameters such as 'altit'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 130,
+          "begincolumn": 7,
+          "endline": 130,
+          "endcolumn": 20,
+          "description": "Consider using varargs for methods or constructors which take an array the last parameter.",
+          "rule": "UseVarargs",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#usevarargs"
+        },
+        {
+          "beginline": 190,
+          "begincolumn": 9,
+          "endline": 190,
+          "endcolumn": 14,
+          "description": "Avoid reassigning parameters such as 'altit'",
+          "rule": "AvoidReassigningParameters",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#avoidreassigningparameters"
+        },
+        {
+          "beginline": 334,
+          "begincolumn": 14,
+          "endline": 334,
+          "endcolumn": 17,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 362,
+          "begincolumn": 14,
+          "endline": 362,
+          "endcolumn": 20,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/snapshot/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/CharsetSniffer.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/CharsetSniffer.java' at line 7, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/CharsetSniffer.java' at line 7, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Comment.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Comment.java' at line 50, column 23: Encountered <IDENTIFIER: \"String\">.\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Comment.java' at line 50, column 23: Encountered <IDENTIFIER: \"String\">.\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBodyDeclaration(JavaParserImpl.java:1477)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBody(JavaParserImpl.java:1437)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceDeclaration(JavaParserImpl.java:819)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.TypeDeclaration(JavaParserImpl.java:751)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:379)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Document.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Document.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Document.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/DocumentMode.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/DocumentMode.java' at line 28, column 8: Encountered <IDENTIFIER: \"DocumentMode\">.\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/DocumentMode.java' at line 28, column 8: Encountered <IDENTIFIER: \"DocumentMode\">.\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/DocumentType.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/DocumentType.java' at line 65, column 23: Encountered \"final\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/DocumentType.java' at line 65, column 23: Encountered \"final\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBodyDeclaration(JavaParserImpl.java:1477)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBody(JavaParserImpl.java:1437)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceDeclaration(JavaParserImpl.java:819)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.TypeDeclaration(JavaParserImpl.java:751)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:379)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Element.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Element.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Element.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlCommon.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlCommon.java' at line 4, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlCommon.java' at line 4, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlDocument.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlDocument.java' at line 4, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlDocument.java' at line 4, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlParser.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlParser.java' at line 29, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/HtmlParser.java' at line 29, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Node.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Node.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Node.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/Text.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Text.java' at line 49, column 23: Encountered <IDENTIFIER: \"String\">.\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/Text.java' at line 49, column 23: Encountered <IDENTIFIER: \"String\">.\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBodyDeclaration(JavaParserImpl.java:1477)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBody(JavaParserImpl.java:1437)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceDeclaration(JavaParserImpl.java:819)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.TypeDeclaration(JavaParserImpl.java:751)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:379)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/XhtmlParser.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/XhtmlParser.java' at line 6, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/XhtmlParser.java' at line 6, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/data/ExclusiveCanonicalXML.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/ExclusiveCanonicalXML.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/ExclusiveCanonicalXML.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/data/Microdata.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/Microdata.java' at line 4, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/Microdata.java' at line 4, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/data/Microformats.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/Microformats.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/Microformats.java' at line 5, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFInternal.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFInternal.java' at line 5, column 13: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFInternal.java' at line 5, column 13: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFa.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFa.java' at line 6, column 13: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFa.java' at line 6, column 13: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFa1.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFa1.java' at line 6, column 13: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/html/data/RDFa1.java' at line 6, column 13: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/CacheControl.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/CacheControl.java' at line 30, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/CacheControl.java' at line 30, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/DownloadHelper.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/DownloadHelper.java' at line 31, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/DownloadHelper.java' at line 31, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/HeaderParser.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/HeaderParser.java' at line 3, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/HeaderParser.java' at line 3, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/net/HttpHeadersFromMap.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/HttpHeadersFromMap.java' at line 29, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/net/HttpHeadersFromMap.java' at line 29, column 10: Encountered \".\".\nWas expecting:\n    \"(\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.FormalParameters(JavaParserImpl.java:1821)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1764)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:413)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/QueryStringHelper.java",
+      "message": "ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/util/QueryStringHelper.java' at line 285, column 51: Encountered <IDENTIFIER: \"is\">.\nWas expecting one of:\n    \"instanceof\" ...\n    \")\" ...\n    \"=\" ...\n    \"<\" ...\n    \"?\" ...\n    \"==\" ...\n    \"<=\" ...\n    \">=\" ...\n    \"!=\" ...\n    \"||\" ...\n    \"&&\" ...\n    \"++\" ...\n    \"--\" ...\n    \"+\" ...\n    \"-\" ...\n    \"*\" ...\n    \"/\" ...\n    \"&\" ...\n    \"|\" ...\n    \"^\" ...\n    \"%\" ...\n    \"+=\" ...\n    \"-=\" ...\n    \"*=\" ...\n    \"/=\" ...\n    \"&=\" ...\n    \"|=\" ...\n    \"^=\" ...\n    \"%=\" ...\n    \"<<=\" ...\n    \">>=\" ...\n    \">>>=\" ...\n    \">\" ...",
+      "detail": "net.sourceforge.pmd.lang.ast.ParseException: Parse exception in file '/HtmlParser-master/src/main/java/com/upokecenter/util/QueryStringHelper.java' at line 285, column 51: Encountered <IDENTIFIER: \"is\">.\nWas expecting one of:\n    \"instanceof\" ...\n    \")\" ...\n    \"=\" ...\n    \"<\" ...\n    \"?\" ...\n    \"==\" ...\n    \"<=\" ...\n    \">=\" ...\n    \"!=\" ...\n    \"||\" ...\n    \"&&\" ...\n    \"++\" ...\n    \"--\" ...\n    \"+\" ...\n    \"-\" ...\n    \"*\" ...\n    \"/\" ...\n    \"&\" ...\n    \"|\" ...\n    \"^\" ...\n    \"%\" ...\n    \"+=\" ...\n    \"-=\" ...\n    \"*=\" ...\n    \"/=\" ...\n    \"&=\" ...\n    \"|=\" ...\n    \"^=\" ...\n    \"%=\" ...\n    \"<<=\" ...\n    \">>=\" ...\n    \">>>=\" ...\n    \">\" ...\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.generateParseException(JavaParserImpl.java:14678)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.jj_consume_token(JavaParserImpl.java:14559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.PrimaryPrefix(JavaParserImpl.java:4563)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.PrimaryExpression(JavaParserImpl.java:4394)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.PostfixExpression(JavaParserImpl.java:4309)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.UnaryExpressionNotPlusMinus(JavaParserImpl.java:4234)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.UnaryExpression(JavaParserImpl.java:4082)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MultiplicativeExpression(JavaParserImpl.java:3973)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.AdditiveExpression(JavaParserImpl.java:3919)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ShiftExpression(JavaParserImpl.java:3865)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.RelationalExpression(JavaParserImpl.java:3801)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.InstanceOfExpression(JavaParserImpl.java:3676)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.EqualityExpression(JavaParserImpl.java:3450)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.AndExpression(JavaParserImpl.java:3409)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ExclusiveOrExpression(JavaParserImpl.java:3368)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.InclusiveOrExpression(JavaParserImpl.java:3327)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ConditionalAndExpression(JavaParserImpl.java:3286)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ConditionalOrExpression(JavaParserImpl.java:3245)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ConditionalExpression(JavaParserImpl.java:3211)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.Expression(JavaParserImpl.java:3104)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.PrimaryPrefix(JavaParserImpl.java:4562)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.PrimaryExpression(JavaParserImpl.java:4394)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.PostfixExpression(JavaParserImpl.java:4309)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.UnaryExpressionNotPlusMinus(JavaParserImpl.java:4234)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.UnaryExpression(JavaParserImpl.java:4082)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MultiplicativeExpression(JavaParserImpl.java:3973)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.AdditiveExpression(JavaParserImpl.java:3919)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ShiftExpression(JavaParserImpl.java:3865)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.RelationalExpression(JavaParserImpl.java:3801)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.InstanceOfExpression(JavaParserImpl.java:3676)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.EqualityExpression(JavaParserImpl.java:3450)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.AndExpression(JavaParserImpl.java:3409)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ExclusiveOrExpression(JavaParserImpl.java:3368)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.InclusiveOrExpression(JavaParserImpl.java:3327)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ConditionalAndExpression(JavaParserImpl.java:3286)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ConditionalOrExpression(JavaParserImpl.java:3245)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ConditionalExpression(JavaParserImpl.java:3211)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.Expression(JavaParserImpl.java:3104)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.VariableInitializer(JavaParserImpl.java:1687)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.VariableDeclarator(JavaParserImpl.java:1559)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.LocalVariableDeclaration(JavaParserImpl.java:6239)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.BlockStatement(JavaParserImpl.java:6107)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.Block(JavaParserImpl.java:6056)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.StatementNoIdent(JavaParserImpl.java:5966)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.Statement(JavaParserImpl.java:5920)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ForStatement(JavaParserImpl.java:6985)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.StatementNoIdent(JavaParserImpl.java:5984)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.BlockStatement(JavaParserImpl.java:6144)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.Block(JavaParserImpl.java:6056)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.MethodDeclaration(JavaParserImpl.java:1784)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBodyDeclaration(JavaParserImpl.java:1477)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceBody(JavaParserImpl.java:1437)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.ClassOrInterfaceDeclaration(JavaParserImpl.java:819)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.TypeDeclaration(JavaParserImpl.java:751)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParserImpl.CompilationUnit(JavaParserImpl.java:379)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:57)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    {
+      "filename": "/HtmlParser-master/src/main/java/com/upokecenter/util/URL.java",
+      "message": "ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')\nException Context:\n\t[1:Resolving type of=!debug only! [AssignmentExpression:841:21]buffer.charAt(1) = ':']\n\t[2:Location=!debug only! /HtmlParser-master/src/main/java/com/upokecenter/util/URL.java:841:21]\n---------------------------------",
+      "detail": "org.apache.commons.lang3.exception.ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')\nException Context:\n\t[1:Resolving type of=!debug only! [AssignmentExpression:841:21]buffer.charAt(1) = ':']\n\t[2:Location=!debug only! /HtmlParser-master/src/main/java/com/upokecenter/util/URL.java:841:21]\n---------------------------------\n\tat net.sourceforge.pmd.util.AssertionUtil.contexted(AssertionUtil.java:256)\n\tat net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:54)\n\tat net.sourceforge.pmd.lang.java.ast.ASTAssignmentExpression.getTypeMirror(ASTAssignmentExpression.java:18)\n\tat net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:39)\n\tat net.sourceforge.pmd.lang.java.ast.ASTAssignmentExpression.getTypeMirror(ASTAssignmentExpression.java:18)\n\tat net.sourceforge.pmd.lang.java.ast.InternalApiBridge.lambda$forceTypeResolutionPhase$0(InternalApiBridge.java:92)\n\tat java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)\n\tat net.sourceforge.pmd.lang.ast.internal.IteratorBasedNStream.forEach(IteratorBasedNStream.java:101)\n\tat net.sourceforge.pmd.lang.java.ast.InternalApiBridge.forceTypeResolutionPhase(InternalApiBridge.java:90)\n\tat net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.lambda$process$3(JavaAstProcessor.java:140)\n\tat net.sourceforge.pmd.benchmark.TimeTracker.bench(TimeTracker.java:163)\n\tat net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:140)\n\tat net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:171)\n\tat net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:155)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:70)\n\tat net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)\n\tat net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)\n\tat net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\nCaused by: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')\n\tat net.sourceforge.pmd.lang.java.ast.ASTAssignmentExpression.getLeftOperand(ASTAssignmentExpression.java:35)\n\tat net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visit(LazyTypeResolver.java:347)\n\tat net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visit(LazyTypeResolver.java:103)\n\tat net.sourceforge.pmd.lang.java.ast.ASTAssignmentExpression.acceptVisitor(ASTAssignmentExpression.java:54)\n\tat net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:51)\n\t... 23 more\n"
+    }
+  ],
+  "configurationErrors": []
+}

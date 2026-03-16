@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "loop variable is used for control logic",
+  "scope": "local_block",
+  "risk_level": "high"
+}

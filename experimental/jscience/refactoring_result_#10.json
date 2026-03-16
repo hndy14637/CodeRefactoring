@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to method that overrides superclass/interface method",
+  "patched_code": "@Override\n        public Text toText() {"
+}

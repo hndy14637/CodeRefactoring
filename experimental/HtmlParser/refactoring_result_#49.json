@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "The variable 'poster' was initialized but never used before being overwritten, so the initialization can be safely removed",
+  "patched_code": "IAction<Runnable> poster;"
+}

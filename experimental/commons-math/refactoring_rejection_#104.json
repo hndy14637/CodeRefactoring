@@ -1,0 +1,6 @@
+{
+  "should_refactor": false,
+  "reason": "no exception to preserve",
+  "scope": "local_block",
+  "risk_level": "low"
+}

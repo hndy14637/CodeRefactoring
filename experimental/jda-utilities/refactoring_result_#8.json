@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Changed array assignment to use clone() to prevent direct storage of user-supplied array",
+  "patched_code": "this.botPermissions = botPermissions != null ? botPermissions.clone() : null;"
+}

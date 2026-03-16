@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to equals method to satisfy PMD's MissingOverride rule",
+  "patched_code": "@Override\npublic boolean equals(Object obj) {"
+}

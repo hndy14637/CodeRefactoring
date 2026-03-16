@@ -1,0 +1,10 @@
+Step 1: Locate instance fields of type `StringBuffer` or `StringBuilder`.
+
+Step 2: If the field is only used within a single method for temporary string construction:
+- Remove the field declaration
+- Convert it to a local `StringBuilder` variable inside the method
+- Use `toString()` at the end to produce the result
+
+Step 3: If buffer reuse is truly necessary:
+- Replace the field with a local variable
+- Cache the final result in a `String` field instead of maintaining a growable buffer

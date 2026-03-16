@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added explicit charset parameter using StandardCharsets.UTF_8 to avoid relying on default charset",
+  "patched_code": "new ByteArrayInputStream(source.getBytes(StandardCharsets.UTF_8));"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refactored",
+  "reason": "Added @Override annotation to method that overrides a superclass/interface method",
+  "patched_code": "@Override\n        public Function differentiate(Variable v) {"
+}
